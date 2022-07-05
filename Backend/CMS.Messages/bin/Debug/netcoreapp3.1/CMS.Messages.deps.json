@@ -1,0 +1,217 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CMS.Messages/1.0.0": {
+        "dependencies": {
+          "Identifi.Infrastructure.Abstractions.NetStandard": "5.0.84",
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "CMS.Messages.dll": {}
+        }
+      },
+      "FluentValidation/10.1.0": {
+        "runtime": {
+          "lib/netstandard2.1/FluentValidation.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "10.1.0.0"
+          }
+        }
+      },
+      "Identifi.Infrastructure.Abstractions.NetStandard/5.0.84": {
+        "dependencies": {
+          "FluentValidation": "10.1.0",
+          "Microsoft.Extensions.Localization": "3.1.15",
+          "Newtonsoft.Json": "11.0.2",
+          "WindowsAzure.Storage": "9.3.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Identifi.Infrastructure.Abstractions.dll": {
+            "assemblyVersion": "5.0.84.0",
+            "fileVersion": "5.0.84.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.15": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "3.1.15.0",
+            "fileVersion": "3.100.1521.21405"
+          }
+        }
+      },
+      "Microsoft.Extensions.Localization/3.1.15": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.15",
+          "Microsoft.Extensions.Localization.Abstractions": "3.1.15",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.15",
+          "Microsoft.Extensions.Options": "3.1.15"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Localization.dll": {
+            "assemblyVersion": "3.1.15.0",
+            "fileVersion": "3.100.1521.21405"
+          }
+        }
+      },
+      "Microsoft.Extensions.Localization.Abstractions/3.1.15": {
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Localization.Abstractions.dll": {
+            "assemblyVersion": "3.1.15.0",
+            "fileVersion": "3.100.1521.21405"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/3.1.15": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "3.1.15.0",
+            "fileVersion": "3.100.1521.21405"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/3.1.15": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.15",
+          "Microsoft.Extensions.Primitives": "3.1.15"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "3.1.15.0",
+            "fileVersion": "3.100.1521.21405"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/3.1.15": {
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "3.1.15.0",
+            "fileVersion": "3.100.1521.21405"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.2.21924"
+          }
+        }
+      },
+      "WindowsAzure.Storage/9.3.3": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {
+            "assemblyVersion": "9.3.2.0",
+            "fileVersion": "9.3.2.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CMS.Messages/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FluentValidation/10.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RxhhfY9IcEY2qUMYjoUxegInbuE5Bwll7dVLsXpiJf25g0ztmzUK+HHqtPcub1caPemhMJsC+NwjHei+NgAkvA==",
+      "path": "fluentvalidation/10.1.0",
+      "hashPath": "fluentvalidation.10.1.0.nupkg.sha512"
+    },
+    "Identifi.Infrastructure.Abstractions.NetStandard/5.0.84": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kthDmN7TpZJolN7ftb1WXctxTaeCUJ/T00g/BlqTqji1ZUx4KT/5+nTIStD2vxSXKm9QxXKfJFTO3cURWmc0gw==",
+      "path": "identifi.infrastructure.abstractions.netstandard/5.0.84",
+      "hashPath": "identifi.infrastructure.abstractions.netstandard.5.0.84.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LqpcQzbu/L8GYrq0eDb8sFe0tjLMngsDycd6iheY833Wy6eGP3b45HmgDULq9ZT+SYlz2lyk4ZDt/7U3ZwGK3Q==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.15",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.3.1.15.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Localization/3.1.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qxTA1WBxr3mPx1Eq7ozgM/BBQ28TOvRGm5VZgSgLLP73w/fyKrp2X4/LpEhVfjeyaGYuIPCxcsbvKH6B9Ji+2Q==",
+      "path": "microsoft.extensions.localization/3.1.15",
+      "hashPath": "microsoft.extensions.localization.3.1.15.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Localization.Abstractions/3.1.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0asFjE0YuUltdr/Rh5V0mLDyAWbS6O/cJR2uxtvbi/ziC1webKa7gcNvzmoFEPxi2KFssmz/eiPRci2EeXbcxQ==",
+      "path": "microsoft.extensions.localization.abstractions/3.1.15",
+      "hashPath": "microsoft.extensions.localization.abstractions.3.1.15.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/3.1.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xYHeWtqrTRpSdYbJToxacxL1rZEVXKyurlOhDJobnSlfMVt/uww5TPhxkHahenGvOE2UPaIfyvi2HFnBoPv98g==",
+      "path": "microsoft.extensions.logging.abstractions/3.1.15",
+      "hashPath": "microsoft.extensions.logging.abstractions.3.1.15.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/3.1.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VAi4B6RDCFOLzPiMxZ4ESMqhhcvfFug3JYje94uMb4QIILejQOhIoC6GZRHMnE6OAqxsY9zRI51Wc3NfWKSBkw==",
+      "path": "microsoft.extensions.options/3.1.15",
+      "hashPath": "microsoft.extensions.options.3.1.15.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/3.1.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MHvISv7lt+0EfCv7+4jkT8hA63AlgMH1oL43xwenFROlS6ILhN5sOH7CuLr3oyssVrX+axqZNEZ3VdaMGia5mQ==",
+      "path": "microsoft.extensions.primitives/3.1.15",
+      "hashPath": "microsoft.extensions.primitives.3.1.15.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "path": "newtonsoft.json/11.0.2",
+      "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
+    },
+    "WindowsAzure.Storage/9.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VUV8j6dzkU/7vDgk5k+ob5g7nnch2fNByr0p9aOxMGFGk+tAnTehrZ4qnClF04CVozP1GNN2zrnbsxCmr+iZBg==",
+      "path": "windowsazure.storage/9.3.3",
+      "hashPath": "windowsazure.storage.9.3.3.nupkg.sha512"
+    }
+  }
+}

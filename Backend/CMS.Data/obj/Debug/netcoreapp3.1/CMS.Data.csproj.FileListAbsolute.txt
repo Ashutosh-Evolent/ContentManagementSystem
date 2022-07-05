@@ -1,0 +1,17 @@
+D:\Users\AMGawande\DotNET\ContactManagement System\CMS.Data\bin\Debug\netcoreapp3.1\CMS.Data.deps.json
+D:\Users\AMGawande\DotNET\ContactManagement System\CMS.Data\bin\Debug\netcoreapp3.1\CMS.Data.runtimeconfig.json
+D:\Users\AMGawande\DotNET\ContactManagement System\CMS.Data\bin\Debug\netcoreapp3.1\CMS.Data.runtimeconfig.dev.json
+D:\Users\AMGawande\DotNET\ContactManagement System\CMS.Data\bin\Debug\netcoreapp3.1\CMS.Data.dll
+D:\Users\AMGawande\DotNET\ContactManagement System\CMS.Data\bin\Debug\netcoreapp3.1\CMS.Data.pdb
+D:\Users\AMGawande\DotNET\ContactManagement System\CMS.Data\bin\Debug\netcoreapp3.1\CMS.Messages.dll
+D:\Users\AMGawande\DotNET\ContactManagement System\CMS.Data\bin\Debug\netcoreapp3.1\CMS.Messages.pdb
+D:\Users\AMGawande\DotNET\ContactManagement System\CMS.Data\obj\Debug\netcoreapp3.1\CMS.Data.csproj.AssemblyReference.cache
+D:\Users\AMGawande\DotNET\ContactManagement System\CMS.Data\obj\Debug\netcoreapp3.1\CMS.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\AMGawande\DotNET\ContactManagement System\CMS.Data\obj\Debug\netcoreapp3.1\CMS.Data.AssemblyInfoInputs.cache
+D:\Users\AMGawande\DotNET\ContactManagement System\CMS.Data\obj\Debug\netcoreapp3.1\CMS.Data.AssemblyInfo.cs
+D:\Users\AMGawande\DotNET\ContactManagement System\CMS.Data\obj\Debug\netcoreapp3.1\CMS.Data.csproj.CoreCompileInputs.cache
+D:\Users\AMGawande\DotNET\ContactManagement System\CMS.Data\obj\Debug\netcoreapp3.1\CMS.Data.csproj.CopyComplete
+D:\Users\AMGawande\DotNET\ContactManagement System\CMS.Data\obj\Debug\netcoreapp3.1\CMS.Data.dll
+D:\Users\AMGawande\DotNET\ContactManagement System\CMS.Data\obj\Debug\netcoreapp3.1\CMS.Data.pdb
+D:\Users\AMGawande\DotNET\ContactManagement System\CMS.Data\obj\Debug\netcoreapp3.1\CMS.Data.genruntimeconfig.cache
+D:\Users\AMGawande\DotNET\ContactManagement System\CMS.Data\bin\Debug\netcoreapp3.1\Microsoft.Azure.Documents.ServiceInterop.dll

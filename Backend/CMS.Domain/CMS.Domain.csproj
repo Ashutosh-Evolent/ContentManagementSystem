@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Identifi.Infrastructure.Abstractions.NetStandard" Version="5.0.84" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CMS.Data\CMS.Data.csproj" />
+    <ProjectReference Include="..\CMS.Messages\CMS.Messages.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,10 @@
+D:\Users\AMGawande\DotNET\ContactManagement System\CMS.Messages\bin\Debug\netcoreapp3.1\CMS.Messages.deps.json
+D:\Users\AMGawande\DotNET\ContactManagement System\CMS.Messages\bin\Debug\netcoreapp3.1\CMS.Messages.dll
+D:\Users\AMGawande\DotNET\ContactManagement System\CMS.Messages\bin\Debug\netcoreapp3.1\CMS.Messages.pdb
+D:\Users\AMGawande\DotNET\ContactManagement System\CMS.Messages\obj\Debug\netcoreapp3.1\CMS.Messages.csproj.AssemblyReference.cache
+D:\Users\AMGawande\DotNET\ContactManagement System\CMS.Messages\obj\Debug\netcoreapp3.1\CMS.Messages.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\AMGawande\DotNET\ContactManagement System\CMS.Messages\obj\Debug\netcoreapp3.1\CMS.Messages.AssemblyInfoInputs.cache
+D:\Users\AMGawande\DotNET\ContactManagement System\CMS.Messages\obj\Debug\netcoreapp3.1\CMS.Messages.AssemblyInfo.cs
+D:\Users\AMGawande\DotNET\ContactManagement System\CMS.Messages\obj\Debug\netcoreapp3.1\CMS.Messages.csproj.CoreCompileInputs.cache
+D:\Users\AMGawande\DotNET\ContactManagement System\CMS.Messages\obj\Debug\netcoreapp3.1\CMS.Messages.dll
+D:\Users\AMGawande\DotNET\ContactManagement System\CMS.Messages\obj\Debug\netcoreapp3.1\CMS.Messages.pdb
