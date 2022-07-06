@@ -5033,7 +5033,6 @@
       "path": "microsoft.win32.primitives/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5537,7 +5536,6 @@
       "path": "runtime.native.system.net.security/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -5551,7 +5549,6 @@
       "path": "runtime.native.system.security.cryptography.apple/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -5607,7 +5604,6 @@
       "path": "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple.4.3.0.nupkg.sha512",
@@ -5691,7 +5687,6 @@
       "path": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
@@ -5707,7 +5702,6 @@
       "path": "runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
@@ -5723,7 +5717,6 @@
       "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
@@ -5989,7 +5982,6 @@
       "path": "system.appcontext/4.1.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6569,7 +6561,6 @@
       "path": "system.composition.attributedmodel/1.0.31",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/System.Composition.AttributedModel.dll",
@@ -6599,7 +6590,6 @@
       "path": "system.composition.hosting/1.0.31",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/System.Composition.Hosting.dll",
@@ -6668,7 +6658,6 @@
       "path": "system.console/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7322,7 +7311,6 @@
       "path": "system.globalization.calendars/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7762,7 +7750,6 @@
       "path": "system.linq.queryable/4.0.1",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/monoandroid10/_._",
@@ -7946,7 +7933,6 @@
       "path": "system.net.networkinformation/4.1.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8100,7 +8086,6 @@
       "path": "system.net.requests/4.0.11",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8215,7 +8200,6 @@
       "path": "system.net.sockets/4.1.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8253,7 +8237,6 @@
       "path": "system.net.webheadercollection/4.0.1",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9221,7 +9204,6 @@
       "path": "system.runtime.interopservices.runtimeinformation/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9521,7 +9503,6 @@
       "path": "system.security.claims/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9560,7 +9541,6 @@
       "path": "system.security.cryptography.algorithms/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9664,7 +9644,6 @@
       "path": "system.security.cryptography.csp/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9696,7 +9675,6 @@
       "path": "system.security.cryptography.encoding/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9828,7 +9806,6 @@
       "path": "system.security.cryptography.x509certificates/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9916,7 +9893,6 @@
       "path": "system.security.principal/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -10483,7 +10459,6 @@
       "path": "system.threading.overlapped/4.0.1",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/net46/System.Threading.Overlapped.dll",
@@ -10656,7 +10631,6 @@
       "path": "system.threading.threadpool/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -10696,7 +10670,6 @@
       "path": "system.threading.timer/4.0.1",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -11106,19 +11079,31 @@
     ]
   },
   "packageFolders": {
-    "D:\\Users\\AMGawande\\.nuget\\packages\\": {}
+    "D:\\Users\\NJPatil\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj",
       "projectName": "CMS.Domain",
       "projectPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj",
       "packagesPath": "D:\\Users\\AMGawande\\.nuget\\packages\\",
       "outputPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Domain\\obj\\",
+=======
+      "projectUniqueName": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj",
+      "projectName": "CMS.Domain",
+      "projectPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj",
+      "packagesPath": "D:\\Users\\NJPatil\\.nuget\\packages\\",
+      "outputPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Domain\\obj\\",
+>>>>>>> 320be884ad7f73c2eb265a8010e54a88c987f884
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "D:\\Users\\AMGawande\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "D:\\Users\\NJPatil\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11133,11 +11118,19 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
+<<<<<<< HEAD
             "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Data\\CMS.Data.csproj": {
               "projectPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Data\\CMS.Data.csproj"
             },
             "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj": {
               "projectPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj"
+=======
+            "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Data\\CMS.Data.csproj": {
+              "projectPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Data\\CMS.Data.csproj"
+            },
+            "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj": {
+              "projectPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj"
+>>>>>>> 320be884ad7f73c2eb265a8010e54a88c987f884
             }
           }
         }

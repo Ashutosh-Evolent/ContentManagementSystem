@@ -8,6 +8,7 @@ D:\Users\AMGawande\DotNET\ContactManagement System\CMS.Messages\obj\Debug\netcor
 D:\Users\AMGawande\DotNET\ContactManagement System\CMS.Messages\obj\Debug\netcoreapp3.1\CMS.Messages.csproj.CoreCompileInputs.cache
 D:\Users\AMGawande\DotNET\ContactManagement System\CMS.Messages\obj\Debug\netcoreapp3.1\CMS.Messages.dll
 D:\Users\AMGawande\DotNET\ContactManagement System\CMS.Messages\obj\Debug\netcoreapp3.1\CMS.Messages.pdb
+<<<<<<< HEAD
 D:\CMS repo\ContentManagementSystem\Backend\CMS.Messages\bin\Debug\netcoreapp3.1\CMS.Messages.deps.json
 D:\CMS repo\ContentManagementSystem\Backend\CMS.Messages\bin\Debug\netcoreapp3.1\CMS.Messages.dll
 D:\CMS repo\ContentManagementSystem\Backend\CMS.Messages\bin\Debug\netcoreapp3.1\CMS.Messages.pdb
@@ -18,3 +19,15 @@ D:\CMS repo\ContentManagementSystem\Backend\CMS.Messages\obj\Debug\netcoreapp3.1
 D:\CMS repo\ContentManagementSystem\Backend\CMS.Messages\obj\Debug\netcoreapp3.1\CMS.Messages.csproj.CoreCompileInputs.cache
 D:\CMS repo\ContentManagementSystem\Backend\CMS.Messages\obj\Debug\netcoreapp3.1\CMS.Messages.dll
 D:\CMS repo\ContentManagementSystem\Backend\CMS.Messages\obj\Debug\netcoreapp3.1\CMS.Messages.pdb
+=======
+D:\Project Codebase\ContentManagementSystem\Backend\CMS.Messages\bin\Debug\netcoreapp3.1\CMS.Messages.deps.json
+D:\Project Codebase\ContentManagementSystem\Backend\CMS.Messages\bin\Debug\netcoreapp3.1\CMS.Messages.dll
+D:\Project Codebase\ContentManagementSystem\Backend\CMS.Messages\bin\Debug\netcoreapp3.1\CMS.Messages.pdb
+D:\Project Codebase\ContentManagementSystem\Backend\CMS.Messages\obj\Debug\netcoreapp3.1\CMS.Messages.csproj.AssemblyReference.cache
+D:\Project Codebase\ContentManagementSystem\Backend\CMS.Messages\obj\Debug\netcoreapp3.1\CMS.Messages.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project Codebase\ContentManagementSystem\Backend\CMS.Messages\obj\Debug\netcoreapp3.1\CMS.Messages.AssemblyInfoInputs.cache
+D:\Project Codebase\ContentManagementSystem\Backend\CMS.Messages\obj\Debug\netcoreapp3.1\CMS.Messages.AssemblyInfo.cs
+D:\Project Codebase\ContentManagementSystem\Backend\CMS.Messages\obj\Debug\netcoreapp3.1\CMS.Messages.csproj.CoreCompileInputs.cache
+D:\Project Codebase\ContentManagementSystem\Backend\CMS.Messages\obj\Debug\netcoreapp3.1\CMS.Messages.dll
+D:\Project Codebase\ContentManagementSystem\Backend\CMS.Messages\obj\Debug\netcoreapp3.1\CMS.Messages.pdb
+>>>>>>> 320be884ad7f73c2eb265a8010e54a88c987f884

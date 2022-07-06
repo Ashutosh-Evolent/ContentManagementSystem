@@ -1,10 +1,12 @@
 
 
+import { CMSPage } from "./Components/Model/CMSPage";
+
+
+
 function App() {
   return (
-    <div>
-      <h1>Contacts</h1>
-    </div>
+    <CMSPage/>
   );
 }
 

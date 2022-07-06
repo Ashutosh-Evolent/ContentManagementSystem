@@ -15,6 +15,7 @@ D:\Users\AMGawande\DotNET\ContactManagement System\CMS.Data\obj\Debug\netcoreapp
 D:\Users\AMGawande\DotNET\ContactManagement System\CMS.Data\obj\Debug\netcoreapp3.1\CMS.Data.pdb
 D:\Users\AMGawande\DotNET\ContactManagement System\CMS.Data\obj\Debug\netcoreapp3.1\CMS.Data.genruntimeconfig.cache
 D:\Users\AMGawande\DotNET\ContactManagement System\CMS.Data\bin\Debug\netcoreapp3.1\Microsoft.Azure.Documents.ServiceInterop.dll
+<<<<<<< HEAD
 D:\CMS repo\ContentManagementSystem\Backend\CMS.Data\bin\Debug\netcoreapp3.1\Microsoft.Azure.Documents.ServiceInterop.dll
 D:\CMS repo\ContentManagementSystem\Backend\CMS.Data\bin\Debug\netcoreapp3.1\CMS.Data.deps.json
 D:\CMS repo\ContentManagementSystem\Backend\CMS.Data\bin\Debug\netcoreapp3.1\CMS.Data.runtimeconfig.json
@@ -32,3 +33,22 @@ D:\CMS repo\ContentManagementSystem\Backend\CMS.Data\obj\Debug\netcoreapp3.1\CMS
 D:\CMS repo\ContentManagementSystem\Backend\CMS.Data\obj\Debug\netcoreapp3.1\CMS.Data.dll
 D:\CMS repo\ContentManagementSystem\Backend\CMS.Data\obj\Debug\netcoreapp3.1\CMS.Data.pdb
 D:\CMS repo\ContentManagementSystem\Backend\CMS.Data\obj\Debug\netcoreapp3.1\CMS.Data.genruntimeconfig.cache
+=======
+D:\Project Codebase\ContentManagementSystem\Backend\CMS.Data\bin\Debug\netcoreapp3.1\Microsoft.Azure.Documents.ServiceInterop.dll
+D:\Project Codebase\ContentManagementSystem\Backend\CMS.Data\bin\Debug\netcoreapp3.1\CMS.Data.deps.json
+D:\Project Codebase\ContentManagementSystem\Backend\CMS.Data\bin\Debug\netcoreapp3.1\CMS.Data.runtimeconfig.json
+D:\Project Codebase\ContentManagementSystem\Backend\CMS.Data\bin\Debug\netcoreapp3.1\CMS.Data.runtimeconfig.dev.json
+D:\Project Codebase\ContentManagementSystem\Backend\CMS.Data\bin\Debug\netcoreapp3.1\CMS.Data.dll
+D:\Project Codebase\ContentManagementSystem\Backend\CMS.Data\bin\Debug\netcoreapp3.1\CMS.Data.pdb
+D:\Project Codebase\ContentManagementSystem\Backend\CMS.Data\bin\Debug\netcoreapp3.1\CMS.Messages.dll
+D:\Project Codebase\ContentManagementSystem\Backend\CMS.Data\bin\Debug\netcoreapp3.1\CMS.Messages.pdb
+D:\Project Codebase\ContentManagementSystem\Backend\CMS.Data\obj\Debug\netcoreapp3.1\CMS.Data.csproj.AssemblyReference.cache
+D:\Project Codebase\ContentManagementSystem\Backend\CMS.Data\obj\Debug\netcoreapp3.1\CMS.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project Codebase\ContentManagementSystem\Backend\CMS.Data\obj\Debug\netcoreapp3.1\CMS.Data.AssemblyInfoInputs.cache
+D:\Project Codebase\ContentManagementSystem\Backend\CMS.Data\obj\Debug\netcoreapp3.1\CMS.Data.AssemblyInfo.cs
+D:\Project Codebase\ContentManagementSystem\Backend\CMS.Data\obj\Debug\netcoreapp3.1\CMS.Data.csproj.CoreCompileInputs.cache
+D:\Project Codebase\ContentManagementSystem\Backend\CMS.Data\obj\Debug\netcoreapp3.1\CMS.Data.csproj.CopyComplete
+D:\Project Codebase\ContentManagementSystem\Backend\CMS.Data\obj\Debug\netcoreapp3.1\CMS.Data.dll
+D:\Project Codebase\ContentManagementSystem\Backend\CMS.Data\obj\Debug\netcoreapp3.1\CMS.Data.pdb
+D:\Project Codebase\ContentManagementSystem\Backend\CMS.Data\obj\Debug\netcoreapp3.1\CMS.Data.genruntimeconfig.cache
+>>>>>>> 320be884ad7f73c2eb265a8010e54a88c987f884
