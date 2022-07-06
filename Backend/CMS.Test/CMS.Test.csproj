@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="6.7.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="2.2.8" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.2.8" />
+    <PackageReference Include="coverlet.collector" Version="3.1.2" />
+    <PackageReference Include="NUnit" Version="3.13.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CMS.Data\CMS.Data.csproj" />
+    <ProjectReference Include="..\CMS.Domain\CMS.Domain.csproj" />
+    <ProjectReference Include="..\CMS.Host\CMS.Host.csproj" />
+    <ProjectReference Include="..\CMS.Messages\CMS.Messages.csproj" />
+    <ProjectReference Include="..\CMS.Web\CMS.Web.csproj" />
+  </ItemGroup>
+
+</Project>
