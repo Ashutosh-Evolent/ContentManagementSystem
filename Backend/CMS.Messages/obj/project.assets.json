@@ -472,11 +472,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\AMGawande\\DotNET\\ContactManagement System\\CMS.Messages\\CMS.Messages.csproj",
+      "projectUniqueName": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj",
       "projectName": "CMS.Messages",
-      "projectPath": "D:\\Users\\AMGawande\\DotNET\\ContactManagement System\\CMS.Messages\\CMS.Messages.csproj",
+      "projectPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj",
       "packagesPath": "D:\\Users\\AMGawande\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\AMGawande\\DotNET\\ContactManagement System\\CMS.Messages\\obj\\",
+      "outputPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Messages\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "D:\\Users\\AMGawande\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -36,12 +36,25 @@ namespace CMS.Host
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-           /* Bootstrapper
-                .Instance
-                .WithServiceCollection(services)
-                .BootstrapInfrastructure()
-                .BootstrapEssentials()
-                .Bootstrap();*/
+            /* Bootstrapper
+                 .Instance
+                 .WithServiceCollection(services)
+                 .BootstrapInfrastructure()
+                 .BootstrapEssentials()
+                 .Bootstrap();*/
+
+            //enable CORS
+            var provider = services.BuildServiceProvider();
+            var configuration = provider.GetRequiredService<IConfiguration>();
+            services.AddCors(c =>
+            {
+                //c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+                var frontendURL = configuration.GetValue<string>("frontend_url");
+                c.AddDefaultPolicy(builder =>
+                {
+                    builder.WithOrigins(frontendURL).AllowAnyMethod().AllowAnyHeader();
+                });
+            });
 
             string connectionStr = Configuration.GetConnectionString("Employee");
             services.AddDbContext<EmployeeDbContext>(options => options.UseSqlServer(connectionStr));
@@ -57,6 +70,9 @@ namespace CMS.Host
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory)
         {
+            //enable CORS
+            app.UseCors(options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

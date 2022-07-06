@@ -11914,11 +11914,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\AMGawande\\DotNET\\ContactManagement System\\CMS.Host\\CMS.Host.csproj",
+      "projectUniqueName": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Host\\CMS.Host.csproj",
       "projectName": "CMS.Host",
-      "projectPath": "D:\\Users\\AMGawande\\DotNET\\ContactManagement System\\CMS.Host\\CMS.Host.csproj",
+      "projectPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Host\\CMS.Host.csproj",
       "packagesPath": "D:\\Users\\AMGawande\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\AMGawande\\DotNET\\ContactManagement System\\CMS.Host\\obj\\",
+      "outputPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Host\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "D:\\Users\\AMGawande\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -11936,14 +11936,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Users\\AMGawande\\DotNET\\ContactManagement System\\CMS.Domain\\CMS.Domain.csproj": {
-              "projectPath": "D:\\Users\\AMGawande\\DotNET\\ContactManagement System\\CMS.Domain\\CMS.Domain.csproj"
+            "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj": {
+              "projectPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj"
             },
-            "D:\\Users\\AMGawande\\DotNET\\ContactManagement System\\CMS.Messages\\CMS.Messages.csproj": {
-              "projectPath": "D:\\Users\\AMGawande\\DotNET\\ContactManagement System\\CMS.Messages\\CMS.Messages.csproj"
+            "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj": {
+              "projectPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj"
             },
-            "D:\\Users\\AMGawande\\DotNET\\ContactManagement System\\CMS.Web\\CMS.Web.csproj": {
-              "projectPath": "D:\\Users\\AMGawande\\DotNET\\ContactManagement System\\CMS.Web\\CMS.Web.csproj"
+            "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Web\\CMS.Web.csproj": {
+              "projectPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Web\\CMS.Web.csproj"
             }
           }
         }

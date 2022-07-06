@@ -11111,11 +11111,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\AMGawande\\DotNET\\ContactManagement System\\CMS.Domain\\CMS.Domain.csproj",
+      "projectUniqueName": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj",
       "projectName": "CMS.Domain",
-      "projectPath": "D:\\Users\\AMGawande\\DotNET\\ContactManagement System\\CMS.Domain\\CMS.Domain.csproj",
+      "projectPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj",
       "packagesPath": "D:\\Users\\AMGawande\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\AMGawande\\DotNET\\ContactManagement System\\CMS.Domain\\obj\\",
+      "outputPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "D:\\Users\\AMGawande\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -11133,11 +11133,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Users\\AMGawande\\DotNET\\ContactManagement System\\CMS.Data\\CMS.Data.csproj": {
-              "projectPath": "D:\\Users\\AMGawande\\DotNET\\ContactManagement System\\CMS.Data\\CMS.Data.csproj"
+            "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Data\\CMS.Data.csproj": {
+              "projectPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Data\\CMS.Data.csproj"
             },
-            "D:\\Users\\AMGawande\\DotNET\\ContactManagement System\\CMS.Messages\\CMS.Messages.csproj": {
-              "projectPath": "D:\\Users\\AMGawande\\DotNET\\ContactManagement System\\CMS.Messages\\CMS.Messages.csproj"
+            "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj": {
+              "projectPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj"
             }
           }
         }
