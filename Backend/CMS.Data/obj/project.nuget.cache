@@ -1,6 +1,7 @@
 {
   "version": 2,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "dgSpecHash": "AbE1ZxZLI3EsQUQhZIcxOTCbbdSnsZT0Y1aNzmlqzetImvE8FzFRsURtmFgir4559qfYCVgYk6W23BjK4lhMNw==",
 =======
   "dgSpecHash": "73BlGvIsTVQCSyxLl7hnhnBEzAvC4uMqidhk9r4K4tNOqPQsfHgawopOvoFzHH2BxcOp04uzT1gOISy4skgMjg==",
@@ -237,6 +238,12 @@
     "D:\\Users\\AMGawande\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
     "D:\\Users\\AMGawande\\.nuget\\packages\\windowsazure.storage\\9.3.3\\windowsazure.storage.9.3.3.nupkg.sha512"
 =======
+=======
+  "dgSpecHash": "73BlGvIsTVQCSyxLl7hnhnBEzAvC4uMqidhk9r4K4tNOqPQsfHgawopOvoFzHH2BxcOp04uzT1gOISy4skgMjg==",
+  "success": true,
+  "projectFilePath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Data\\CMS.Data.csproj",
+  "expectedPackageFiles": [
+>>>>>>> b1cf8d7596e9ab035dbb22525e13896dbad8544b
     "D:\\Users\\NJPatil\\.nuget\\packages\\automapper\\7.0.1\\automapper.7.0.1.nupkg.sha512",
     "D:\\Users\\NJPatil\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\5.0.1\\automapper.extensions.microsoft.dependencyinjection.5.0.1.nupkg.sha512",
     "D:\\Users\\NJPatil\\.nuget\\packages\\azure.core\\1.19.0\\azure.core.1.19.0.nupkg.sha512",
@@ -460,6 +467,9 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
     "D:\\Users\\NJPatil\\.nuget\\packages\\windowsazure.storage\\9.3.3\\windowsazure.storage.9.3.3.nupkg.sha512"
+<<<<<<< HEAD
+>>>>>>> b1cf8d7596e9ab035dbb22525e13896dbad8544b
+=======
 >>>>>>> b1cf8d7596e9ab035dbb22525e13896dbad8544b
   ],
   "logs": [
