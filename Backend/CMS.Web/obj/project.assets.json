@@ -12006,19 +12006,23 @@
     ]
   },
   "packageFolders": {
-    "D:\\Users\\AMGawande\\.nuget\\packages\\": {}
+    "D:\\Users\\NJPatil\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Web\\CMS.Web.csproj",
+      "projectUniqueName": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Web\\CMS.Web.csproj",
       "projectName": "CMS.Web",
-      "projectPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Web\\CMS.Web.csproj",
-      "packagesPath": "D:\\Users\\AMGawande\\.nuget\\packages\\",
-      "outputPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Web\\obj\\",
+      "projectPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Web\\CMS.Web.csproj",
+      "packagesPath": "D:\\Users\\NJPatil\\.nuget\\packages\\",
+      "outputPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Web\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "D:\\Users\\AMGawande\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "D:\\Users\\NJPatil\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12033,11 +12037,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj": {
-              "projectPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj"
+            "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj": {
+              "projectPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj"
             },
-            "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj": {
-              "projectPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj"
+            "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj": {
+              "projectPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj"
             }
           }
         }
