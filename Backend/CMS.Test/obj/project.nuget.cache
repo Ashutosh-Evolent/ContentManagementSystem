@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HTc9v+Z6i6nxeBplcS4Jf2jHV82208OATGl9Dy9vS9Y0iZQRGeuvBrMyWKych5YV6pIjU3cqcgS8CC5uo7gJ0w==",
+  "dgSpecHash": "DhoGeE0Mtx4jNsE0Ml+j2hX8PRwpRE6epqoMBeJOwD5aSGEOBuAKPRrssinnnl4tCa8Ssdbm2LAo2rarHMpjXQ==",
   "success": true,
-  "projectFilePath": "D:\\Users\\AMGawande\\DotNET\\ContactManagement System\\CMS.Test\\CMS.Test.csproj",
+  "projectFilePath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Test\\CMS.Test.csproj",
   "expectedPackageFiles": [
     "D:\\Users\\AMGawande\\.nuget\\packages\\automapper\\7.0.1\\automapper.7.0.1.nupkg.sha512",
     "D:\\Users\\AMGawande\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\5.0.1\\automapper.extensions.microsoft.dependencyinjection.5.0.1.nupkg.sha512",

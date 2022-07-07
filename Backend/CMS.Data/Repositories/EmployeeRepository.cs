@@ -13,6 +13,7 @@ namespace CMS.Data.Repositories
         string DeleteEmployee(int employeeID);
         object EmployeeList();
         string UpdateEmployee(Employee emp);
+        object GetEmployeeById(int employeeID);
     }
     public class EmployeeRepository : IEmployeeRepository
     {
@@ -56,6 +57,15 @@ namespace CMS.Data.Repositories
             employeeDbContexts.SaveChanges();
             msg = "Employee updated successfully";
             return msg;
+        }
+
+        public object GetEmployeeById(int employeeID)
+        {
+            string msg = "employee not found";
+            var emp = employeeDbContexts.Employees.Find(employeeID);
+            if (emp == null)
+                return msg;
+            return emp;
         }
     }
 }

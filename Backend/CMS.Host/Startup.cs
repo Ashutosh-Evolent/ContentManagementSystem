@@ -65,6 +65,7 @@ namespace CMS.Host
             services.AddTransient<DeleteEmployeeHandler, DeleteEmployeeHandler>();
             services.AddTransient<GetEmployeeHandler, GetEmployeeHandler>();
             services.AddTransient<UpdateEmployeeHandler, UpdateEmployeeHandler>();
+            services.AddTransient<GetEmployeeByIdHandler, GetEmployeeByIdHandler>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

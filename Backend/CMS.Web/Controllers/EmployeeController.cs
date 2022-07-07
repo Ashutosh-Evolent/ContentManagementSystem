@@ -19,16 +19,19 @@ namespace CMS.Web.Controllers
         DeleteEmployeeHandler deleteEmployeeHandler;
         GetEmployeeHandler getEmployeeHandler;
         UpdateEmployeeHandler updateEmployeeHandler;
+        GetEmployeeByIdHandler getEmployeeByIdHandler;
 
         public EmployeeController(CreateEmployeeHandler _createEmployeeHandler,
         DeleteEmployeeHandler _deleteEmployeeHandler,
         GetEmployeeHandler _getEmployeeHandler,
-        UpdateEmployeeHandler _updateEmployeeHandler)
+        UpdateEmployeeHandler _updateEmployeeHandler,
+        GetEmployeeByIdHandler _getEmployeeByIdHandler)
         {
             createEmployeeHandler = _createEmployeeHandler;
             deleteEmployeeHandler = _deleteEmployeeHandler;
             getEmployeeHandler = _getEmployeeHandler;
             updateEmployeeHandler = _updateEmployeeHandler;
+            getEmployeeByIdHandler = _getEmployeeByIdHandler;
         }
 
         [HttpGet("EmployeeList")]
@@ -36,6 +39,12 @@ namespace CMS.Web.Controllers
         {
             //return await ProcessAsync(request);
             return Ok(getEmployeeHandler.EmployeeList());
+        }
+
+        [HttpGet("GetEmployee/{empID:int}")]
+        public IActionResult GetEmployeeById(int empID)
+        {
+            return Ok(getEmployeeByIdHandler.GetEmployee(empID));
         }
 
         [HttpPost("AddEmployee")]
