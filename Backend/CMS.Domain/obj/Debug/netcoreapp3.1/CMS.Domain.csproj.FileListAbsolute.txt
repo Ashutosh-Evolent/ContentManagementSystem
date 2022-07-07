@@ -46,3 +46,19 @@ D:\Project Codebase\ContentManagementSystem\Backend\CMS.Domain\obj\Debug\netcore
 D:\Project Codebase\ContentManagementSystem\Backend\CMS.Domain\obj\Debug\netcoreapp3.1\CMS.Domain.csproj.CopyComplete
 D:\Project Codebase\ContentManagementSystem\Backend\CMS.Domain\obj\Debug\netcoreapp3.1\CMS.Domain.dll
 D:\Project Codebase\ContentManagementSystem\Backend\CMS.Domain\obj\Debug\netcoreapp3.1\CMS.Domain.pdb
+D:\Assignment\ContentManagementSystem\Backend\CMS.Domain\bin\Debug\netcoreapp3.1\Microsoft.Azure.Documents.ServiceInterop.dll
+D:\Assignment\ContentManagementSystem\Backend\CMS.Domain\bin\Debug\netcoreapp3.1\CMS.Domain.deps.json
+D:\Assignment\ContentManagementSystem\Backend\CMS.Domain\bin\Debug\netcoreapp3.1\CMS.Domain.dll
+D:\Assignment\ContentManagementSystem\Backend\CMS.Domain\bin\Debug\netcoreapp3.1\CMS.Domain.pdb
+D:\Assignment\ContentManagementSystem\Backend\CMS.Domain\bin\Debug\netcoreapp3.1\CMS.Data.dll
+D:\Assignment\ContentManagementSystem\Backend\CMS.Domain\bin\Debug\netcoreapp3.1\CMS.Messages.dll
+D:\Assignment\ContentManagementSystem\Backend\CMS.Domain\bin\Debug\netcoreapp3.1\CMS.Data.pdb
+D:\Assignment\ContentManagementSystem\Backend\CMS.Domain\bin\Debug\netcoreapp3.1\CMS.Messages.pdb
+D:\Assignment\ContentManagementSystem\Backend\CMS.Domain\obj\Debug\netcoreapp3.1\CMS.Domain.csproj.AssemblyReference.cache
+D:\Assignment\ContentManagementSystem\Backend\CMS.Domain\obj\Debug\netcoreapp3.1\CMS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Assignment\ContentManagementSystem\Backend\CMS.Domain\obj\Debug\netcoreapp3.1\CMS.Domain.AssemblyInfoInputs.cache
+D:\Assignment\ContentManagementSystem\Backend\CMS.Domain\obj\Debug\netcoreapp3.1\CMS.Domain.AssemblyInfo.cs
+D:\Assignment\ContentManagementSystem\Backend\CMS.Domain\obj\Debug\netcoreapp3.1\CMS.Domain.csproj.CoreCompileInputs.cache
+D:\Assignment\ContentManagementSystem\Backend\CMS.Domain\obj\Debug\netcoreapp3.1\CMS.Domain.csproj.CopyComplete
+D:\Assignment\ContentManagementSystem\Backend\CMS.Domain\obj\Debug\netcoreapp3.1\CMS.Domain.dll
+D:\Assignment\ContentManagementSystem\Backend\CMS.Domain\obj\Debug\netcoreapp3.1\CMS.Domain.pdb

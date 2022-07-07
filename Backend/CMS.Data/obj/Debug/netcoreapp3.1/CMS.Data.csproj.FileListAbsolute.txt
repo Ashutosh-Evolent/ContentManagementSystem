@@ -49,3 +49,20 @@ D:\Project Codebase\ContentManagementSystem\Backend\CMS.Data\obj\Debug\netcoreap
 D:\Project Codebase\ContentManagementSystem\Backend\CMS.Data\obj\Debug\netcoreapp3.1\CMS.Data.dll
 D:\Project Codebase\ContentManagementSystem\Backend\CMS.Data\obj\Debug\netcoreapp3.1\CMS.Data.pdb
 D:\Project Codebase\ContentManagementSystem\Backend\CMS.Data\obj\Debug\netcoreapp3.1\CMS.Data.genruntimeconfig.cache
+D:\Assignment\ContentManagementSystem\Backend\CMS.Data\bin\Debug\netcoreapp3.1\Microsoft.Azure.Documents.ServiceInterop.dll
+D:\Assignment\ContentManagementSystem\Backend\CMS.Data\bin\Debug\netcoreapp3.1\CMS.Data.deps.json
+D:\Assignment\ContentManagementSystem\Backend\CMS.Data\bin\Debug\netcoreapp3.1\CMS.Data.runtimeconfig.json
+D:\Assignment\ContentManagementSystem\Backend\CMS.Data\bin\Debug\netcoreapp3.1\CMS.Data.runtimeconfig.dev.json
+D:\Assignment\ContentManagementSystem\Backend\CMS.Data\bin\Debug\netcoreapp3.1\CMS.Data.dll
+D:\Assignment\ContentManagementSystem\Backend\CMS.Data\bin\Debug\netcoreapp3.1\CMS.Data.pdb
+D:\Assignment\ContentManagementSystem\Backend\CMS.Data\bin\Debug\netcoreapp3.1\CMS.Messages.dll
+D:\Assignment\ContentManagementSystem\Backend\CMS.Data\bin\Debug\netcoreapp3.1\CMS.Messages.pdb
+D:\Assignment\ContentManagementSystem\Backend\CMS.Data\obj\Debug\netcoreapp3.1\CMS.Data.csproj.AssemblyReference.cache
+D:\Assignment\ContentManagementSystem\Backend\CMS.Data\obj\Debug\netcoreapp3.1\CMS.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Assignment\ContentManagementSystem\Backend\CMS.Data\obj\Debug\netcoreapp3.1\CMS.Data.AssemblyInfoInputs.cache
+D:\Assignment\ContentManagementSystem\Backend\CMS.Data\obj\Debug\netcoreapp3.1\CMS.Data.AssemblyInfo.cs
+D:\Assignment\ContentManagementSystem\Backend\CMS.Data\obj\Debug\netcoreapp3.1\CMS.Data.csproj.CoreCompileInputs.cache
+D:\Assignment\ContentManagementSystem\Backend\CMS.Data\obj\Debug\netcoreapp3.1\CMS.Data.csproj.CopyComplete
+D:\Assignment\ContentManagementSystem\Backend\CMS.Data\obj\Debug\netcoreapp3.1\CMS.Data.dll
+D:\Assignment\ContentManagementSystem\Backend\CMS.Data\obj\Debug\netcoreapp3.1\CMS.Data.pdb
+D:\Assignment\ContentManagementSystem\Backend\CMS.Data\obj\Debug\netcoreapp3.1\CMS.Data.genruntimeconfig.cache

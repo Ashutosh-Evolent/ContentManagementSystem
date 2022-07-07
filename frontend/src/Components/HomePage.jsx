@@ -3,11 +3,13 @@ import { useEffect, useState } from "react";
 import { Segment, Table, Button } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import swal from 'sweetalert';
+
 
 const StyleSegment = styled(Segment)`
   &&&&& {
     margin: 5rem;
-    padding: 5rem 2rem;
+    // padding: 5rem 2rem;
     display: block;
     height: 37rem;
     overflow: auto;
@@ -16,15 +18,14 @@ const StyleSegment = styled(Segment)`
 
 function HomePage() {
   const [contacts, setContacts] = useState([]);
-
-  const HandleEdit = (contact) => {
-
-  };
   const HandleDelete = (id) => {
     axios.delete(`https://localhost:44361/Employee/Delete/${id}`).then((Response)=>{
         console.log(Response.data);
+        swal('Contact Details Deleted Successfully')
         retriveData();
-    })
+    }).catch((err) => {
+      console.log(err);
+    });
   };
   const retriveData=()=>{
     axios
@@ -32,7 +33,9 @@ function HomePage() {
     .then((Response) => {
       console.log(Response.data);
       setContacts(Response.data);
-    });
+    }).catch((err) => {
+      console.log(err);
+    });;
   }
   useEffect(() => {
    retriveData();
@@ -48,8 +51,9 @@ function HomePage() {
   ];
   return (
     <StyleSegment>
-      <Button>
-        <Link to={"/addUser"}>Add</Link>
+      <Button as={Link} to={"/addUser"}>
+       
+        ADD
       </Button>
       <Table celled padded>
         <Table.Header>
@@ -69,7 +73,7 @@ function HomePage() {
               <Table.Cell>{contact.contactNumber}</Table.Cell>
               <Table.Cell>{contact.stat}</Table.Cell>
               <Table.Cell>
-                <Button><Link to={`/edit/${contact.employeeId}`}>Edit</Link></Button>
+                <Button as={Link} to={`/edit/${contact.employeeId}`}>Edit</Button>
                 {/* <Button onClick={() => HandleEdit(contact)}>EDIT</Button> */}
                 <Button onClick={() => HandleDelete(contact.employeeId)}>
                   DELETE

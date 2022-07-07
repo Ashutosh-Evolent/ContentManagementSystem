@@ -13482,11 +13482,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Test\\CMS.Test.csproj",
+      "projectUniqueName": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Test\\CMS.Test.csproj",
       "projectName": "CMS.Test",
-      "projectPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Test\\CMS.Test.csproj",
+      "projectPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Test\\CMS.Test.csproj",
       "packagesPath": "D:\\Users\\NJPatil\\.nuget\\packages\\",
-      "outputPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Test\\obj\\",
+      "outputPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13507,20 +13507,20 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Data\\CMS.Data.csproj": {
-              "projectPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Data\\CMS.Data.csproj"
+            "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Data\\CMS.Data.csproj": {
+              "projectPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Data\\CMS.Data.csproj"
             },
-            "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj": {
-              "projectPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj"
+            "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj": {
+              "projectPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj"
             },
-            "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Host\\CMS.Host.csproj": {
-              "projectPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Host\\CMS.Host.csproj"
+            "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Host\\CMS.Host.csproj": {
+              "projectPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Host\\CMS.Host.csproj"
             },
-            "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj": {
-              "projectPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj"
+            "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj": {
+              "projectPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj"
             },
-            "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Web\\CMS.Web.csproj": {
-              "projectPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Web\\CMS.Web.csproj"
+            "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Web\\CMS.Web.csproj": {
+              "projectPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Web\\CMS.Web.csproj"
             }
           }
         }
@@ -13580,6 +13580,12 @@
     }
   },
   "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Test\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    },
     {
       "code": "NU1701",
       "level": "Warning",
