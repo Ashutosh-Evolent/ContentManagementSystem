@@ -2831,6 +2831,7 @@
           "CMS.Messages": "1.0.0",
           "Identifi.Infrastructure.NetStandard": "5.0.84",
           "Microsoft.AspNet.Mvc": "5.2.9",
+          "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "Microsoft.EntityFrameworkCore": "5.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0"
         },
@@ -2842,7 +2843,8 @@
         "dependencies": {
           "CMS.Data": "1.0.0",
           "CMS.Messages": "1.0.0",
-          "Identifi.Infrastructure.Abstractions.NetStandard": "5.0.84"
+          "Identifi.Infrastructure.Abstractions.NetStandard": "5.0.84",
+          "Microsoft.AspNetCore.Mvc.Core": "2.2.5"
         },
         "runtime": {
           "CMS.Domain.dll": {}

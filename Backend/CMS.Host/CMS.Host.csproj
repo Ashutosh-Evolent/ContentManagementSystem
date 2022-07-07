@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CMS.Data\CMS.Data.csproj" />
     <ProjectReference Include="..\CMS.Domain\CMS.Domain.csproj" />
     <ProjectReference Include="..\CMS.Messages\CMS.Messages.csproj" />
     <ProjectReference Include="..\CMS.Web\CMS.Web.csproj" />

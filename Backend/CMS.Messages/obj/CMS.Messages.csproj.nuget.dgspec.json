@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj": {}
+    "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj": {}
   },
   "projects": {
-    "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj": {
+    "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj",
+        "projectUniqueName": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj",
         "projectName": "CMS.Messages",
-        "projectPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj",
-        "packagesPath": "D:\\Users\\NJPatil\\.nuget\\packages\\",
-        "outputPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Messages\\obj\\",
+        "projectPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj",
+        "packagesPath": "D:\\Users\\AMGawande\\.nuget\\packages\\",
+        "outputPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Messages\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "D:\\Users\\NJPatil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\AMGawande\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

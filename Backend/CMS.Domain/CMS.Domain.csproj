@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="Identifi.Infrastructure.Abstractions.NetStandard" Version="5.0.84" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
   </ItemGroup>
 
   <ItemGroup>

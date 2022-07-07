@@ -39,18 +39,29 @@ namespace CMS.Web.Controllers
         {
             //return await ProcessAsync(request);
             return Ok(getEmployeeHandler.EmployeeList());
+  
         }
 
         [HttpGet("GetEmployee/{empID:int}")]
         public IActionResult GetEmployeeById(int empID)
         {
             return Ok(getEmployeeByIdHandler.GetEmployee(empID));
+
         }
 
         [HttpPost("AddEmployee")]
         public IActionResult CreateEmployee(Employee emp)
         {
-            return Ok(createEmployeeHandler.AddEmployee(emp));
+            //return Ok(createEmployeeHandler.AddEmployee(emp));
+            if (createEmployeeHandler.AddEmployee(emp).Equals("Phone number and email already exists") || createEmployeeHandler.AddEmployee(emp).Equals("Phone number already exists") || createEmployeeHandler.AddEmployee(emp).Equals("Email already exists"))
+            {
+                return BadRequest(createEmployeeHandler.AddEmployee(emp));
+            }
+            else
+            {
+                return Ok(createEmployeeHandler.AddEmployee(emp));
+            }
+            
         }
 
         [HttpPut("Update")]

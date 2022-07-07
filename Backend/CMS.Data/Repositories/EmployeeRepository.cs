@@ -1,6 +1,7 @@
 ﻿using Azure;
 using CMS.Data.DbContexts;
 using CMS.Messages.Entities;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,6 +9,7 @@ using System.Net;
 using System.Net.Http;
 using System.Text;
 using System.Web.Mvc;
+
 
 namespace CMS.Data.Repositories
 {
@@ -19,7 +21,7 @@ namespace CMS.Data.Repositories
         string UpdateEmployee(Employee emp);
         object GetEmployeeById(int employeeID);
     }
-    public class EmployeeRepository : IEmployeeRepository
+    public class EmployeeRepository : Microsoft.AspNetCore.Mvc.ControllerBase, IEmployeeRepository
     {
         EmployeeDbContext employeeDbContexts;
 
@@ -36,22 +38,24 @@ namespace CMS.Data.Repositories
             if (foundPhoneNumber != null && foundEmail != null) 
             {
                 return msg="Phone number and email already exists";
+                //return BadRequest("Phone number and email alreay exists");
             }
             else if(foundPhoneNumber != null)
             {
                 return msg = "Phone number already exists";
-                
+                //return BadRequest("Phone number already exists");
             }
             else if (foundEmail != null)
             {
                 return msg = "Email already exists";
-
+                //return BadRequest("Email already exists");
             }
             else
             {
                 employeeDbContexts.Employees.Add(emp);
                 employeeDbContexts.SaveChanges();
                 return msg = "Employee added successfully";
+               // return Ok("Employee added successfully");
             }
             
         }
