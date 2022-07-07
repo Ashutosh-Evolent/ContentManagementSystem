@@ -350,3 +350,10 @@ D:\CMS repo\ContentManagementSystem\Backend\CMS.Host\obj\Debug\netcoreapp3.1\CMS
 D:\CMS repo\ContentManagementSystem\Backend\CMS.Host\obj\Debug\netcoreapp3.1\CMS.Host.dll
 D:\CMS repo\ContentManagementSystem\Backend\CMS.Host\obj\Debug\netcoreapp3.1\CMS.Host.pdb
 D:\CMS repo\ContentManagementSystem\Backend\CMS.Host\obj\Debug\netcoreapp3.1\CMS.Host.genruntimeconfig.cache
+D:\CMS repo\ContentManagementSystem\Backend\CMS.Host\bin\Debug\netcoreapp3.1\System.Web.Mvc.dll
+D:\CMS repo\ContentManagementSystem\Backend\CMS.Host\bin\Debug\netcoreapp3.1\System.Web.Razor.dll
+D:\CMS repo\ContentManagementSystem\Backend\CMS.Host\bin\Debug\netcoreapp3.1\System.Web.Helpers.dll
+D:\CMS repo\ContentManagementSystem\Backend\CMS.Host\bin\Debug\netcoreapp3.1\System.Web.WebPages.Deployment.dll
+D:\CMS repo\ContentManagementSystem\Backend\CMS.Host\bin\Debug\netcoreapp3.1\System.Web.WebPages.Razor.dll
+D:\CMS repo\ContentManagementSystem\Backend\CMS.Host\bin\Debug\netcoreapp3.1\System.Web.WebPages.dll
+D:\CMS repo\ContentManagementSystem\Backend\CMS.Host\bin\Debug\netcoreapp3.1\Microsoft.Web.Infrastructure.dll

@@ -1,9 +1,13 @@
-﻿using CMS.Data.DbContexts;
+﻿using Azure;
+using CMS.Data.DbContexts;
 using CMS.Messages.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
+using System.Net.Http;
 using System.Text;
+using System.Web.Mvc;
 
 namespace CMS.Data.Repositories
 {
@@ -26,10 +30,30 @@ namespace CMS.Data.Repositories
         public string AddEmployee(Employee emp)
         {
             string msg = "";
-            employeeDbContexts.Employees.Add(emp);
-            employeeDbContexts.SaveChanges();
-            msg = "Employee added successfully";
-            return msg;
+            List<Employee> list = employeeDbContexts.Employees.ToList();
+            var foundPhoneNumber = employeeDbContexts.Employees.Where(x => x.ContactNumber==emp.ContactNumber).FirstOrDefault();
+            var foundEmail = employeeDbContexts.Employees.Where(a => a.Email.ToLower() == emp.Email.ToLower()).FirstOrDefault();
+            if (foundPhoneNumber != null && foundEmail != null) 
+            {
+                return msg="Phone number and email already exists";
+            }
+            else if(foundPhoneNumber != null)
+            {
+                return msg = "Phone number already exists";
+                
+            }
+            else if (foundEmail != null)
+            {
+                return msg = "Email already exists";
+
+            }
+            else
+            {
+                employeeDbContexts.Employees.Add(emp);
+                employeeDbContexts.SaveChanges();
+                return msg = "Employee added successfully";
+            }
+            
         }
 
         public string DeleteEmployee(int employeeID)
