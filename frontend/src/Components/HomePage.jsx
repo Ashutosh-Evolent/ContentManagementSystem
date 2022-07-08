@@ -1,44 +1,62 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import { Segment, Table, Button } from "semantic-ui-react";
+import { Segment, Table, Button ,Icon} from "semantic-ui-react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import swal from 'sweetalert';
-
+import swal from "sweetalert";
 
 const StyleSegment = styled(Segment)`
   &&&&& {
-    margin: 5rem;
-    // padding: 5rem 2rem;
+    margin: 0.5rem 5rem 0rem 5rem;
     display: block;
-    height: 37rem;
+    height: 30rem;
     overflow: auto;
+  }
+`;
+
+const ButtonSegment = styled.div`
+  &&&& {
+    margin: 5rem 5rem 0rem 5rem;  
+    display: block;
+    justify-content: right;
+    text-align: right;
   }
 `;
 
 function HomePage() {
   const [contacts, setContacts] = useState([]);
   const HandleDelete = (id) => {
-    axios.delete(`https://localhost:44361/Employee/Delete/${id}`).then((Response)=>{
-        console.log(Response.data);
-        swal('Contact Details Deleted Successfully')
-        retriveData();
-    }).catch((err) => {
-      console.log(err);
+    swal({
+      title: "Are you sure?",
+      icon: "warning",
+      buttons: true,
+      dangerMode: true,
+    }).then((willDelete) => {
+      if (willDelete) {
+        axios
+          .delete(`https://localhost:44361/Employee/Delete/${id}`)
+          .then((Response) => {
+            swal(Response.data);
+            retriveData();
+          })
+          .catch((err) => {
+           swal(err.Response.data,'error')
+          });
+      }
     });
   };
-  const retriveData=()=>{
+  const retriveData = () => {
     axios
-    .get("https://localhost:44361/Employee/EmployeeList")
-    .then((Response) => {
-      console.log(Response.data);
-      setContacts(Response.data);
-    }).catch((err) => {
-      console.log(err);
-    });;
-  }
+      .get("https://localhost:44361/Employee/EmployeeList")
+      .then((Response) => {
+        setContacts(Response.data);
+      })
+      .catch((err) => {
+        swal(err.Response.data,'error')
+      });
+  };
   useEffect(() => {
-   retriveData();
+    retriveData();
   }, []);
   const headerRow = [
     "Id",
@@ -49,41 +67,47 @@ function HomePage() {
     "Status",
     "Action",
   ];
+
   return (
-    <StyleSegment>
-      <Button as={Link} to={"/addUser"}>
-       
-        ADD
-      </Button>
-      <Table celled padded>
-        <Table.Header>
-          <Table.Row>
-            {headerRow.map((header) => (
-              <Table.HeaderCell key={header}>{header}</Table.HeaderCell>
-            ))}
-          </Table.Row>
-        </Table.Header>
-        <Table.Body>
-          {contacts.map((contact) => (
-            <Table.Row key={contact.employeeId}>
-              <Table.Cell>{contact.employeeId}</Table.Cell>
-              <Table.Cell>{contact.firstName}</Table.Cell>
-              <Table.Cell>{contact.lastName}</Table.Cell>
-              <Table.Cell>{contact.email}</Table.Cell>
-              <Table.Cell>{contact.contactNumber}</Table.Cell>
-              <Table.Cell>{contact.stat}</Table.Cell>
-              <Table.Cell>
-                <Button as={Link} to={`/edit/${contact.employeeId}`}>Edit</Button>
-                {/* <Button onClick={() => HandleEdit(contact)}>EDIT</Button> */}
-                <Button onClick={() => HandleDelete(contact.employeeId)}>
-                  DELETE
-                </Button>
-              </Table.Cell>
+    <>
+      <ButtonSegment>
+        <Button as={Link} to={"/addUser"} color='purple' content='Add' icon='plus' labelPosition='left'/>
+      </ButtonSegment>
+      <StyleSegment>
+        <Table celled padded>
+          <Table.Header>
+            <Table.Row>
+              {headerRow.map((header) => (
+                <Table.HeaderCell key={header}>{header}</Table.HeaderCell>
+              ))}
+              {/* <Table.HeaderCell>Id</Table.HeaderCell>
+              <Table.HeaderCell>First Name</Table.HeaderCell>
+              <Table.HeaderCell>Last Name</Table.HeaderCell>
+              <Table.HeaderCell>Email</Table.HeaderCell>
+              <Table.HeaderCell>Contact Number</Table.HeaderCell>
+              <Table.HeaderCell>Status
+              </Table.HeaderCell> */}
             </Table.Row>
-          ))}
-        </Table.Body>
-      </Table>
-    </StyleSegment>
+          </Table.Header>
+          <Table.Body>
+            {contacts.map((contact) => (
+              <Table.Row key={contact.employeeId}>
+                <Table.Cell>{contact.employeeId}</Table.Cell>
+                <Table.Cell>{contact.firstName}</Table.Cell>
+                <Table.Cell>{contact.lastName}</Table.Cell>
+                <Table.Cell>{contact.email}</Table.Cell>
+                <Table.Cell>{contact.contactNumber}</Table.Cell>
+                <Table.Cell>{contact.stat}</Table.Cell>
+                <Table.Cell>
+                  <Button as={Link} to={`/edit/${contact.employeeId}`}  color='purple' content='Edit' icon='edit' labelPosition='left'/>
+                  <Button onClick={() => HandleDelete(contact.employeeId)} color='purple'content='Delete' icon='delete' labelPosition="left"/>
+                </Table.Cell>
+              </Table.Row>
+            ))}
+          </Table.Body>
+        </Table>
+      </StyleSegment>
+    </>
   );
 }
 export default HomePage;

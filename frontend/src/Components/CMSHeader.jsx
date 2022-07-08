@@ -14,6 +14,7 @@ const Header = styled(Segment)`
     color:white;
     padding:  1rem;
     margin: 0;
+    z-index: 100;
   }
 `;
 

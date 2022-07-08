@@ -59,7 +59,7 @@ namespace CMS.Web.Controllers
             }
             else
             {
-                return Ok(createEmployeeHandler.AddEmployee(emp));
+                return Ok("Employee added successfully");
             }
             
         }

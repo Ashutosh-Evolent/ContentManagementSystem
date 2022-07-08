@@ -18,16 +18,6 @@ D:\CMS repo\ContentManagementSystem\Backend\CMS.Messages\obj\Debug\netcoreapp3.1
 D:\CMS repo\ContentManagementSystem\Backend\CMS.Messages\obj\Debug\netcoreapp3.1\CMS.Messages.csproj.CoreCompileInputs.cache
 D:\CMS repo\ContentManagementSystem\Backend\CMS.Messages\obj\Debug\netcoreapp3.1\CMS.Messages.dll
 D:\CMS repo\ContentManagementSystem\Backend\CMS.Messages\obj\Debug\netcoreapp3.1\CMS.Messages.pdb
-D:\Project Codebase\ContentManagementSystem\Backend\CMS.Messages\bin\Debug\netcoreapp3.1\CMS.Messages.deps.json
-D:\Project Codebase\ContentManagementSystem\Backend\CMS.Messages\bin\Debug\netcoreapp3.1\CMS.Messages.dll
-D:\Project Codebase\ContentManagementSystem\Backend\CMS.Messages\bin\Debug\netcoreapp3.1\CMS.Messages.pdb
-D:\Project Codebase\ContentManagementSystem\Backend\CMS.Messages\obj\Debug\netcoreapp3.1\CMS.Messages.csproj.AssemblyReference.cache
-D:\Project Codebase\ContentManagementSystem\Backend\CMS.Messages\obj\Debug\netcoreapp3.1\CMS.Messages.GeneratedMSBuildEditorConfig.editorconfig
-D:\Project Codebase\ContentManagementSystem\Backend\CMS.Messages\obj\Debug\netcoreapp3.1\CMS.Messages.AssemblyInfoInputs.cache
-D:\Project Codebase\ContentManagementSystem\Backend\CMS.Messages\obj\Debug\netcoreapp3.1\CMS.Messages.AssemblyInfo.cs
-D:\Project Codebase\ContentManagementSystem\Backend\CMS.Messages\obj\Debug\netcoreapp3.1\CMS.Messages.csproj.CoreCompileInputs.cache
-D:\Project Codebase\ContentManagementSystem\Backend\CMS.Messages\obj\Debug\netcoreapp3.1\CMS.Messages.dll
-D:\Project Codebase\ContentManagementSystem\Backend\CMS.Messages\obj\Debug\netcoreapp3.1\CMS.Messages.pdb
 D:\Assignment\ContentManagementSystem\Backend\CMS.Messages\bin\Debug\netcoreapp3.1\CMS.Messages.deps.json
 D:\Assignment\ContentManagementSystem\Backend\CMS.Messages\bin\Debug\netcoreapp3.1\CMS.Messages.dll
 D:\Assignment\ContentManagementSystem\Backend\CMS.Messages\bin\Debug\netcoreapp3.1\CMS.Messages.pdb
@@ -38,3 +28,13 @@ D:\Assignment\ContentManagementSystem\Backend\CMS.Messages\obj\Debug\netcoreapp3
 D:\Assignment\ContentManagementSystem\Backend\CMS.Messages\obj\Debug\netcoreapp3.1\CMS.Messages.csproj.CoreCompileInputs.cache
 D:\Assignment\ContentManagementSystem\Backend\CMS.Messages\obj\Debug\netcoreapp3.1\CMS.Messages.dll
 D:\Assignment\ContentManagementSystem\Backend\CMS.Messages\obj\Debug\netcoreapp3.1\CMS.Messages.pdb
+D:\Project Codebase\ContentManagementSystem\Backend\CMS.Messages\bin\Debug\netcoreapp3.1\CMS.Messages.deps.json
+D:\Project Codebase\ContentManagementSystem\Backend\CMS.Messages\bin\Debug\netcoreapp3.1\CMS.Messages.dll
+D:\Project Codebase\ContentManagementSystem\Backend\CMS.Messages\bin\Debug\netcoreapp3.1\CMS.Messages.pdb
+D:\Project Codebase\ContentManagementSystem\Backend\CMS.Messages\obj\Debug\netcoreapp3.1\CMS.Messages.csproj.AssemblyReference.cache
+D:\Project Codebase\ContentManagementSystem\Backend\CMS.Messages\obj\Debug\netcoreapp3.1\CMS.Messages.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project Codebase\ContentManagementSystem\Backend\CMS.Messages\obj\Debug\netcoreapp3.1\CMS.Messages.AssemblyInfoInputs.cache
+D:\Project Codebase\ContentManagementSystem\Backend\CMS.Messages\obj\Debug\netcoreapp3.1\CMS.Messages.AssemblyInfo.cs
+D:\Project Codebase\ContentManagementSystem\Backend\CMS.Messages\obj\Debug\netcoreapp3.1\CMS.Messages.csproj.CoreCompileInputs.cache
+D:\Project Codebase\ContentManagementSystem\Backend\CMS.Messages\obj\Debug\netcoreapp3.1\CMS.Messages.dll
+D:\Project Codebase\ContentManagementSystem\Backend\CMS.Messages\obj\Debug\netcoreapp3.1\CMS.Messages.pdb

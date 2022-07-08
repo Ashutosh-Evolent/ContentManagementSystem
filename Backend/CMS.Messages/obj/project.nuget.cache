@@ -1,27 +1,28 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "wZMAG8Z0RW+xR8gOLxxgCPfV2A0jKIrfTLgooAnte/fObNychoy6PY1vdGj+6PlzL8zPXiW3VNOCXlhZhCbb0g==",
+  "dgSpecHash": "zl9P1gLJWxiaD1iXgZPvGxellQedo6z0BGNZWE/5bfMv6gZcLLdeX5eHIZTHGgdCLxS7dmyUm7ehG9SV4tkoXg==",
   "success": true,
-  "projectFilePath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj",
-=======
-  "dgSpecHash": "SxmaH5No7aryZhr7PYEYi0kCESXDxw/SWFNjweXPK8EG9xVpyG9Kdf40tDxhXsCazcLiol8nEBLikkvlE/L7DA==",
-  "success": true,
-  "projectFilePath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj",
->>>>>>> 7bb463edf11baa2b0e8f09b46c7a6106ffd4c68f
+  "projectFilePath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj",
   "expectedPackageFiles": [
-    "D:\\Users\\AMGawande\\.nuget\\packages\\fluentvalidation\\10.1.0\\fluentvalidation.10.1.0.nupkg.sha512",
-    "D:\\Users\\AMGawande\\.nuget\\packages\\identifi.infrastructure.abstractions.netstandard\\5.0.84\\identifi.infrastructure.abstractions.netstandard.5.0.84.nupkg.sha512",
-    "D:\\Users\\AMGawande\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.15\\microsoft.extensions.dependencyinjection.abstractions.3.1.15.nupkg.sha512",
-    "D:\\Users\\AMGawande\\.nuget\\packages\\microsoft.extensions.localization\\3.1.15\\microsoft.extensions.localization.3.1.15.nupkg.sha512",
-    "D:\\Users\\AMGawande\\.nuget\\packages\\microsoft.extensions.localization.abstractions\\3.1.15\\microsoft.extensions.localization.abstractions.3.1.15.nupkg.sha512",
-    "D:\\Users\\AMGawande\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.15\\microsoft.extensions.logging.abstractions.3.1.15.nupkg.sha512",
-    "D:\\Users\\AMGawande\\.nuget\\packages\\microsoft.extensions.options\\3.1.15\\microsoft.extensions.options.3.1.15.nupkg.sha512",
-    "D:\\Users\\AMGawande\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.15\\microsoft.extensions.primitives.3.1.15.nupkg.sha512",
-    "D:\\Users\\AMGawande\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "D:\\Users\\AMGawande\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "D:\\Users\\AMGawande\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
-    "D:\\Users\\AMGawande\\.nuget\\packages\\windowsazure.storage\\9.3.3\\windowsazure.storage.9.3.3.nupkg.sha512"
+    "D:\\Users\\NJPatil\\.nuget\\packages\\fluentvalidation\\10.1.0\\fluentvalidation.10.1.0.nupkg.sha512",
+    "D:\\Users\\NJPatil\\.nuget\\packages\\identifi.infrastructure.abstractions.netstandard\\5.0.84\\identifi.infrastructure.abstractions.netstandard.5.0.84.nupkg.sha512",
+    "D:\\Users\\NJPatil\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.15\\microsoft.extensions.dependencyinjection.abstractions.3.1.15.nupkg.sha512",
+    "D:\\Users\\NJPatil\\.nuget\\packages\\microsoft.extensions.localization\\3.1.15\\microsoft.extensions.localization.3.1.15.nupkg.sha512",
+    "D:\\Users\\NJPatil\\.nuget\\packages\\microsoft.extensions.localization.abstractions\\3.1.15\\microsoft.extensions.localization.abstractions.3.1.15.nupkg.sha512",
+    "D:\\Users\\NJPatil\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.15\\microsoft.extensions.logging.abstractions.3.1.15.nupkg.sha512",
+    "D:\\Users\\NJPatil\\.nuget\\packages\\microsoft.extensions.options\\3.1.15\\microsoft.extensions.options.3.1.15.nupkg.sha512",
+    "D:\\Users\\NJPatil\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.15\\microsoft.extensions.primitives.3.1.15.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "D:\\Users\\NJPatil\\.nuget\\packages\\windowsazure.storage\\9.3.3\\windowsazure.storage.9.3.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Messages\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
