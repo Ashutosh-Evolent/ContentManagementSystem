@@ -282,7 +282,6 @@
       "path": "netstandard.library/2.0.3",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "build/netstandard2.0/NETStandard.Library.targets",
@@ -467,19 +466,31 @@
     ]
   },
   "packageFolders": {
-    "D:\\Users\\AMGawande\\.nuget\\packages\\": {}
+    "D:\\Users\\NJPatil\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj",
       "projectName": "CMS.Messages",
       "projectPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj",
       "packagesPath": "D:\\Users\\AMGawande\\.nuget\\packages\\",
       "outputPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Messages\\obj\\",
+=======
+      "projectUniqueName": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj",
+      "projectName": "CMS.Messages",
+      "projectPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj",
+      "packagesPath": "D:\\Users\\NJPatil\\.nuget\\packages\\",
+      "outputPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Messages\\obj\\",
+>>>>>>> ed6f19eee615e957a7c6f25e5d61a438a5136aaa
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "D:\\Users\\AMGawande\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "D:\\Users\\NJPatil\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -539,7 +550,11 @@
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
+<<<<<<< HEAD
       "message": "Problem reading the cache file D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Messages\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+=======
+      "message": "Problem reading the cache file D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Messages\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+>>>>>>> ed6f19eee615e957a7c6f25e5d61a438a5136aaa
     }
   ]
 }

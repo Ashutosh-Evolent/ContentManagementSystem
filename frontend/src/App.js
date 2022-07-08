@@ -16,7 +16,7 @@ function App() {
       <Route path='/addUser' element={<UserForm/>}/>
       <Route path='/edit/:id' element={<UserForm/>}/>
     </Routes>
-    <CMSFooter/>
+    <CMSFooter children={'CMS'}/>
     </BrowserRouter>
    
   );
