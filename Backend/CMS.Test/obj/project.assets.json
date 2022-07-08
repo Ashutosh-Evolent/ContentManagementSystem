@@ -13484,19 +13484,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Test\\CMS.Test.csproj",
       "projectName": "CMS.Test",
       "projectPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Test\\CMS.Test.csproj",
       "packagesPath": "D:\\Users\\AMGawande\\.nuget\\packages\\",
       "outputPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Test\\obj\\",
-=======
-      "projectUniqueName": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Test\\CMS.Test.csproj",
-      "projectName": "CMS.Test",
-      "projectPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Test\\CMS.Test.csproj",
-      "packagesPath": "D:\\Users\\NJPatil\\.nuget\\packages\\",
-      "outputPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Test\\obj\\",
->>>>>>> 7bb463edf11baa2b0e8f09b46c7a6106ffd4c68f
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "D:\\Users\\AMGawande\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -13514,7 +13506,6 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-<<<<<<< HEAD
             "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Data\\CMS.Data.csproj": {
               "projectPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Data\\CMS.Data.csproj"
             },
@@ -13529,22 +13520,6 @@
             },
             "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Web\\CMS.Web.csproj": {
               "projectPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Web\\CMS.Web.csproj"
-=======
-            "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Data\\CMS.Data.csproj": {
-              "projectPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Data\\CMS.Data.csproj"
-            },
-            "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj": {
-              "projectPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj"
-            },
-            "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Host\\CMS.Host.csproj": {
-              "projectPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Host\\CMS.Host.csproj"
-            },
-            "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj": {
-              "projectPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj"
-            },
-            "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Web\\CMS.Web.csproj": {
-              "projectPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Web\\CMS.Web.csproj"
->>>>>>> 7bb463edf11baa2b0e8f09b46c7a6106ffd4c68f
             }
           }
         }
@@ -13608,7 +13583,7 @@
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Test\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+      "message": "Problem reading the cache file D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Test\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
     },
     {
       "code": "NU1701",

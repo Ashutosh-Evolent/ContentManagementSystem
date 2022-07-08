@@ -53,15 +53,15 @@ namespace CMS.Web.Controllers
         public IActionResult CreateEmployee(Employee emp)
         {
             //return Ok(createEmployeeHandler.AddEmployee(emp));
-            if (createEmployeeHandler.AddEmployee(emp).Equals("Phone number and email already exists") || createEmployeeHandler.AddEmployee(emp).Equals("Phone number already exists") || createEmployeeHandler.AddEmployee(emp).Equals("Email already exists"))
+            
+            if (createEmployeeHandler.AddEmployee(emp).Equals("Employee added successfully"))
             {
-                return BadRequest(createEmployeeHandler.AddEmployee(emp));
+                return Ok("Employee added successfully");
             }
             else
             {
-                return Ok(createEmployeeHandler.AddEmployee(emp));
+                return BadRequest(createEmployeeHandler.AddEmployee(emp));
             }
-            
         }
 
         [HttpPut("Update")]

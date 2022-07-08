@@ -32,32 +32,95 @@ namespace CMS.Data.Repositories
         public string AddEmployee(Employee emp)
         {
             string msg = "";
-            List<Employee> list = employeeDbContexts.Employees.ToList();
-            var foundPhoneNumber = employeeDbContexts.Employees.Where(x => x.ContactNumber==emp.ContactNumber).FirstOrDefault();
-            var foundEmail = employeeDbContexts.Employees.Where(a => a.Email.ToLower() == emp.Email.ToLower()).FirstOrDefault();
-            if (foundPhoneNumber != null && foundEmail != null) 
+            if (emp.FirstName.Length == 0 && emp.LastName.Length == 0 && emp.ContactNumber.Length == 0 && emp.Email.Length==0)
             {
-                return msg="Phone number and email already exists";
-                //return BadRequest("Phone number and email alreay exists");
+                return msg = "First name, Last name, Contact number, Email can not be empty";
             }
-            else if(foundPhoneNumber != null)
+            else if (emp.FirstName.Length == 0 && emp.LastName.Length == 0 && emp.ContactNumber.Length == 0)
             {
-                return msg = "Phone number already exists";
-                //return BadRequest("Phone number already exists");
+                return msg = "First name, Last name, Contact number can not be empty";
             }
-            else if (foundEmail != null)
+            else if (emp.LastName.Length == 0 && emp.ContactNumber.Length == 0 && emp.Email.Length == 0)
             {
-                return msg = "Email already exists";
-                //return BadRequest("Email already exists");
+                return msg = "Last name, Contact number, Email can not be empty";
+            }
+            else if (emp.FirstName.Length == 0 && emp.LastName.Length == 0 && emp.Email.Length == 0)
+            {
+                return msg = "First name, Last name, Email can not be empty";
+            }
+            else if (emp.FirstName.Length == 0 && emp.LastName.Length == 0)
+            {
+                return msg = "First name, Last name can not be empty";
+            }
+            else if (emp.FirstName.Length == 0 && emp.ContactNumber.Length == 0)
+            {
+                return msg = "First name, Contact number can not be empty";
+            }
+            else if (emp.FirstName.Length == 0 && emp.Email.Length == 0)
+            {
+                return msg = "First name, Email can not be empty";
+            }
+            else if (emp.LastName.Length == 0 && emp.ContactNumber.Length == 0)
+            {
+                return msg = "Last name, Contact number can not be empty";
+            }
+            else if (emp.LastName.Length == 0 && emp.Email.Length == 0)
+            {
+                return msg = "Last name, Email can not be empty";
+            }
+            else if (emp.ContactNumber.Length == 0 && emp.Email.Length == 0)
+            {
+                return msg = "Contact number, Email can not be empty";
+            }else if (emp.FirstName.Length == 0)
+            {
+                return msg = "First name can not be empty";
+            }
+            else if (emp.FirstName.Length > 30)
+            {
+                return msg = "First name can not exceed by 30 characters";
+            }
+            else if (emp.LastName.Length == 0)
+            {
+                return msg = "Last name can not be empty";
+            }
+            else if (emp.LastName.Length > 30)
+            {
+                return msg = "Last name can not exceed by 30 characters";
+            }
+            else if (emp.ContactNumber.Length == 0)
+            {
+                return msg = "Contact number can not be empty";
+            }
+            else if (emp.Email.Length == 0)
+            {
+                return msg = "Email can not be empty";
             }
             else
             {
-                employeeDbContexts.Employees.Add(emp);
-                employeeDbContexts.SaveChanges();
-                return msg = "Employee added successfully";
-               // return Ok("Employee added successfully");
+                var foundPhoneNumber = employeeDbContexts.Employees.Where(x => x.ContactNumber == emp.ContactNumber).FirstOrDefault();
+                var foundEmail = employeeDbContexts.Employees.Where(a => a.Email.ToLower() == emp.Email.ToLower()).FirstOrDefault();
+                if (foundPhoneNumber != null && foundEmail != null)
+                {
+                    return msg = "Phone number and email already exists";
+                }
+                else if (foundPhoneNumber != null)
+                {
+                    return msg = "Phone number already exists";
+                }
+                else if (foundEmail != null)
+                {
+                    return msg = "Email already exists";
+                }
+                else
+                {
+                    employeeDbContexts.Employees.Add(emp);
+                    employeeDbContexts.SaveChanges();
+                    msg = "Employee added successfully";
+                    return msg;
+                }
+
             }
-            
+
         }
 
         public string DeleteEmployee(int employeeID)

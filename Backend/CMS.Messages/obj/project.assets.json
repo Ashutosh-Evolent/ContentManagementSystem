@@ -472,19 +472,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj",
       "projectName": "CMS.Messages",
       "projectPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj",
       "packagesPath": "D:\\Users\\AMGawande\\.nuget\\packages\\",
       "outputPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Messages\\obj\\",
-=======
-      "projectUniqueName": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj",
-      "projectName": "CMS.Messages",
-      "projectPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj",
-      "packagesPath": "D:\\Users\\NJPatil\\.nuget\\packages\\",
-      "outputPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Messages\\obj\\",
->>>>>>> 7bb463edf11baa2b0e8f09b46c7a6106ffd4c68f
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "D:\\Users\\AMGawande\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -541,5 +533,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Messages\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
