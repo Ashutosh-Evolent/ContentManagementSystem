@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import { Segment, Table, Button ,Icon} from "semantic-ui-react";
+import { Segment, Table, Button, Dimmer, Loader } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import swal from "sweetalert";
@@ -16,7 +16,7 @@ const StyleSegment = styled(Segment)`
 
 const ButtonSegment = styled.div`
   &&&& {
-    margin: 5rem 5rem 0rem 5rem;  
+    margin: 5rem 5rem 0rem 5rem;
     display: block;
     justify-content: right;
     text-align: right;
@@ -25,6 +25,7 @@ const ButtonSegment = styled.div`
 
 function HomePage() {
   const [contacts, setContacts] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
   const HandleDelete = (id) => {
     swal({
       title: "Are you sure?",
@@ -40,19 +41,21 @@ function HomePage() {
             retriveData();
           })
           .catch((err) => {
-           swal(err.Response.data,'error')
+            swal(err.Response.data, "error");
           });
       }
     });
   };
   const retriveData = () => {
+    setIsLoading(true);
     axios
       .get("https://localhost:44361/Employee/EmployeeList")
       .then((Response) => {
         setContacts(Response.data);
+        setIsLoading(false);
       })
       .catch((err) => {
-        swal(err.Response.data,'error')
+        swal(err.Response.data, "error");
       });
   };
   useEffect(() => {
@@ -70,8 +73,18 @@ function HomePage() {
 
   return (
     <>
+      <Dimmer active={isLoading} inverted>
+        <Loader size="big" content="Please Wait" />
+      </Dimmer>
       <ButtonSegment>
-        <Button as={Link} to={"/addUser"} color='purple' content='Add' icon='plus' labelPosition='left'/>
+        <Button
+          as={Link}
+          to={"/addUser"}
+          color="purple"
+          content="Add"
+          icon="plus"
+          labelPosition="left"
+        />
       </ButtonSegment>
       <StyleSegment>
         <Table celled padded>
@@ -99,8 +112,21 @@ function HomePage() {
                 <Table.Cell>{contact.contactNumber}</Table.Cell>
                 <Table.Cell>{contact.stat}</Table.Cell>
                 <Table.Cell>
-                  <Button as={Link} to={`/edit/${contact.employeeId}`}  color='purple' content='Edit' icon='edit' labelPosition='left'/>
-                  <Button onClick={() => HandleDelete(contact.employeeId)} color='purple'content='Delete' icon='delete' labelPosition="left"/>
+                  <Button
+                    as={Link}
+                    to={`/edit/${contact.employeeId}`}
+                    color="purple"
+                    content="Edit"
+                    icon="edit"
+                    labelPosition="left"
+                  />
+                  <Button
+                    onClick={() => HandleDelete(contact.employeeId)}
+                    color="purple"
+                    content="Delete"
+                    icon="delete"
+                    labelPosition="left"
+                  />
                 </Table.Cell>
               </Table.Row>
             ))}
