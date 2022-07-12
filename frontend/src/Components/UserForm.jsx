@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import {
-  Segment,
   Input,
   Button,
   Form,
@@ -56,6 +55,8 @@ export const UserForm = () => {
   const onInputChange = (e) => {
     setContact({ ...contact, [e.target.name]: e.target.value });
   };
+
+
 
   const HandleSubmit = () => {
     if (
