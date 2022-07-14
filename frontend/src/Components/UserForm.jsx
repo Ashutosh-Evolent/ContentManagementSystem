@@ -34,7 +34,7 @@ export const UserForm = () => {
     lastName: "",
     email: "",
     contactNumber: "",
-    stat: "active",
+    stat: "Active",
   });
   useEffect(() => {
     if (id !== undefined) {
@@ -51,12 +51,11 @@ export const UserForm = () => {
         });
     }
   }, [id]);
+
   const { firstName, lastName, email, contactNumber, stat } = contact;
   const onInputChange = (e) => {
     setContact({ ...contact, [e.target.name]: e.target.value });
-  };
-
-
+  }
 
   const HandleSubmit = () => {
     if (
@@ -107,79 +106,79 @@ export const UserForm = () => {
   };
   return (
     <>
-     <Dimmer active={isLoading} inverted>
+      <Dimmer active={isLoading} inverted>
         <Loader size="big" content="Please Wait" />
       </Dimmer>
-    <StyleSegment>
-      <Form>
-        <Form.Group widths="equal">
-          <Form.Field
-            control={Input}
-            placeholder="First name"
-            value={firstName}
-            name="firstName"
-            onChange={(e) => onInputChange(e)}
-          />
-          <Form.Field
-            value={lastName}
-            name="lastName"
-            onChange={(e) => onInputChange(e)}
-            control={Input}
-            placeholder="Last name"
-          />
-        </Form.Group>
-        <Form.Group widths="equal">
-          <Form.Field
-            control={Input}
-            placeholder="Contact Number"
-            value={contactNumber}
-            name="contactNumber"
-            onChange={(e) => onInputChange(e)}
-          />
-          <Form.Field
-            control={Input}
-            placeholder="email"
-            value={email}
-            name="email"
-            onChange={(e) => onInputChange(e)}
-          />
-        </Form.Group>
-        <Form.Group widths="equal">
-          <Form.Field>
-            <select
-              className="ui dropdown"
-              name="stat"
-              value={stat}
+      <StyleSegment>
+        <Form>
+          <Form.Group widths="equal">
+            <Form.Field
+              control={Input}
+              placeholder="First name"
+              value={firstName}
+              name="firstName"
               onChange={(e) => onInputChange(e)}
+            />
+            <Form.Field
+              value={lastName}
+              name="lastName"
+              onChange={(e) => onInputChange(e)}
+              control={Input}
+              placeholder="Last name"
+            />
+          </Form.Group>
+          <Form.Group widths="equal">
+            <Form.Field
+              control={Input}
+              placeholder="Contact Number"
+              value={contactNumber}
+              name="contactNumber"
+              onChange={(e) => onInputChange(e)}
+            />
+            <Form.Field
+              control={Input}
+              placeholder="email"
+              value={email}
+              name="email"
+              onChange={(e) => onInputChange(e)}
+            />
+          </Form.Group>
+          <Form.Group widths="equal">
+            <Form.Field>
+              <select
+                className="ui dropdown"
+                name="stat"
+                value={stat}
+                onChange={(e) => onInputChange(e)}
+              >
+                <option value="Active">Active</option>
+                <option value="Inactive">Inactive</option>
+              </select>
+            </Form.Field>
+            <Form.Field></Form.Field>
+          </Form.Group>
+          <FormGroup>
+            <Form.Field
+              control={Button}
+              onClick={() => {
+                HandleSubmit();
+              }}
+              color="purple"
             >
-              <option value="active">Active</option>
-              <option value="Inactive">Inactive</option>
-            </select>
-          </Form.Field>
-          <Form.Field></Form.Field>
-        </Form.Group>
-        <FormGroup>
-        <Form.Field
-          control={Button}
-          onClick={() => {
-            HandleSubmit();
-          }}
-          color="purple"
-        >
-          {BtnState}
-        </Form.Field>
-        <Form.Field
-          control={Button}
-          onClick={() => {
-            navigate(-1);
-          }}
-          color="purple"
-        >
-          {"Cancel"}
-        </Form.Field>
-        </FormGroup>
-      </Form>
-    </StyleSegment>
+              {BtnState}
+            </Form.Field>
+            <Form.Field
+              control={Button}
+              onClick={() => {
+                navigate(-1);
+              }}
+              color="purple"
+            >
+              {"Cancel"}
+            </Form.Field>
+          </FormGroup>
+        </Form>
+      </StyleSegment>
     </>
   );
 };

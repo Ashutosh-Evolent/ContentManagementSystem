@@ -11944,19 +11944,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Web\\CMS.Web.csproj",
+      "projectUniqueName": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Web\\CMS.Web.csproj",
       "projectName": "CMS.Web",
-      "projectPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Web\\CMS.Web.csproj",
-      "packagesPath": "D:\\Users\\AMGawande\\.nuget\\packages\\",
-      "outputPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Web\\obj\\",
-=======
-      "projectUniqueName": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Web\\CMS.Web.csproj",
-      "projectName": "CMS.Web",
-      "projectPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Web\\CMS.Web.csproj",
+      "projectPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Web\\CMS.Web.csproj",
       "packagesPath": "D:\\Users\\NJPatil\\.nuget\\packages\\",
-      "outputPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Web\\obj\\",
->>>>>>> ed6f19eee615e957a7c6f25e5d61a438a5136aaa
+      "outputPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -11977,19 +11969,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-<<<<<<< HEAD
-            "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj": {
-              "projectPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj"
+            "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj": {
+              "projectPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj"
             },
-            "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj": {
-              "projectPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj"
-=======
-            "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj": {
-              "projectPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj"
-            },
-            "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj": {
-              "projectPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj"
->>>>>>> ed6f19eee615e957a7c6f25e5d61a438a5136aaa
+            "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj": {
+              "projectPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj"
             }
           }
         }
@@ -12037,11 +12021,7 @@
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
-<<<<<<< HEAD
-      "message": "Problem reading the cache file D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Web\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-=======
-      "message": "Problem reading the cache file D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Web\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
->>>>>>> ed6f19eee615e957a7c6f25e5d61a438a5136aaa
+      "message": "Problem reading the cache file D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Web\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
     },
     {
       "code": "NU1701",

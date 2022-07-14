@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "wZMAG8Z0RW+xR8gOLxxgCPfV2A0jKIrfTLgooAnte/fObNychoy6PY1vdGj+6PlzL8zPXiW3VNOCXlhZhCbb0g==",
+  "dgSpecHash": "SxmaH5No7aryZhr7PYEYi0kCESXDxw/SWFNjweXPK8EG9xVpyG9Kdf40tDxhXsCazcLiol8nEBLikkvlE/L7DA==",
   "success": true,
-  "projectFilePath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj",
-=======
-  "dgSpecHash": "zl9P1gLJWxiaD1iXgZPvGxellQedo6z0BGNZWE/5bfMv6gZcLLdeX5eHIZTHGgdCLxS7dmyUm7ehG9SV4tkoXg==",
-  "success": true,
-  "projectFilePath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj",
->>>>>>> ed6f19eee615e957a7c6f25e5d61a438a5136aaa
+  "projectFilePath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj",
   "expectedPackageFiles": [
     "D:\\Users\\NJPatil\\.nuget\\packages\\fluentvalidation\\10.1.0\\fluentvalidation.10.1.0.nupkg.sha512",
     "D:\\Users\\NJPatil\\.nuget\\packages\\identifi.infrastructure.abstractions.netstandard\\5.0.84\\identifi.infrastructure.abstractions.netstandard.5.0.84.nupkg.sha512",
@@ -28,11 +22,7 @@
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
-<<<<<<< HEAD
-      "message": "Problem reading the cache file D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Messages\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-=======
-      "message": "Problem reading the cache file D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Messages\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
->>>>>>> ed6f19eee615e957a7c6f25e5d61a438a5136aaa
+      "message": "Problem reading the cache file D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Messages\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
     }
   ]
 }

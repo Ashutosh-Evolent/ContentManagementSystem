@@ -472,19 +472,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj",
+      "projectUniqueName": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj",
       "projectName": "CMS.Messages",
-      "projectPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj",
-      "packagesPath": "D:\\Users\\AMGawande\\.nuget\\packages\\",
-      "outputPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Messages\\obj\\",
-=======
-      "projectUniqueName": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj",
-      "projectName": "CMS.Messages",
-      "projectPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj",
+      "projectPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj",
       "packagesPath": "D:\\Users\\NJPatil\\.nuget\\packages\\",
-      "outputPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Messages\\obj\\",
->>>>>>> ed6f19eee615e957a7c6f25e5d61a438a5136aaa
+      "outputPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Messages\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -550,11 +542,7 @@
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
-<<<<<<< HEAD
-      "message": "Problem reading the cache file D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Messages\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-=======
-      "message": "Problem reading the cache file D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Messages\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
->>>>>>> ed6f19eee615e957a7c6f25e5d61a438a5136aaa
+      "message": "Problem reading the cache file D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Messages\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
     }
   ]
 }

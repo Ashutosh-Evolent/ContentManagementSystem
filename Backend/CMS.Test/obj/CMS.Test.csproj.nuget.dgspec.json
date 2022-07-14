@@ -1,27 +1,17 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Test\\CMS.Test.csproj": {}
-=======
-    "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Test\\CMS.Test.csproj": {}
->>>>>>> ed6f19eee615e957a7c6f25e5d61a438a5136aaa
+    "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Test\\CMS.Test.csproj": {}
   },
   "projects": {
-    "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Data\\CMS.Data.csproj": {
+    "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Data\\CMS.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Data\\CMS.Data.csproj",
+        "projectUniqueName": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Data\\CMS.Data.csproj",
         "projectName": "CMS.Data",
-<<<<<<< HEAD
-        "projectPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Data\\CMS.Data.csproj",
-        "packagesPath": "D:\\Users\\AMGawande\\.nuget\\packages\\",
-        "outputPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Data\\obj\\",
-=======
-        "projectPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Data\\CMS.Data.csproj",
+        "projectPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Data\\CMS.Data.csproj",
         "packagesPath": "D:\\Users\\NJPatil\\.nuget\\packages\\",
-        "outputPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Data\\obj\\",
->>>>>>> ed6f19eee615e957a7c6f25e5d61a438a5136aaa
+        "outputPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -42,13 +32,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-<<<<<<< HEAD
-              "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj": {
-                "projectPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj"
-=======
-              "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj": {
-                "projectPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj"
->>>>>>> ed6f19eee615e957a7c6f25e5d61a438a5136aaa
+              "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj": {
+                "projectPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj"
               }
             }
           }
@@ -109,24 +94,14 @@
         }
       }
     },
-<<<<<<< HEAD
-    "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj": {
-=======
-    "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj": {
->>>>>>> ed6f19eee615e957a7c6f25e5d61a438a5136aaa
+    "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj",
+        "projectUniqueName": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj",
         "projectName": "CMS.Domain",
-<<<<<<< HEAD
-        "projectPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj",
-        "packagesPath": "D:\\Users\\AMGawande\\.nuget\\packages\\",
-        "outputPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Domain\\obj\\",
-=======
-        "projectPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj",
+        "projectPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj",
         "packagesPath": "D:\\Users\\NJPatil\\.nuget\\packages\\",
-        "outputPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Domain\\obj\\",
->>>>>>> ed6f19eee615e957a7c6f25e5d61a438a5136aaa
+        "outputPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -147,19 +122,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-<<<<<<< HEAD
-              "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Data\\CMS.Data.csproj": {
-                "projectPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Data\\CMS.Data.csproj"
+              "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Data\\CMS.Data.csproj": {
+                "projectPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Data\\CMS.Data.csproj"
               },
-              "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj": {
-                "projectPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj"
-=======
-              "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Data\\CMS.Data.csproj": {
-                "projectPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Data\\CMS.Data.csproj"
-              },
-              "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj": {
-                "projectPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj"
->>>>>>> ed6f19eee615e957a7c6f25e5d61a438a5136aaa
+              "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj": {
+                "projectPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj"
               }
             }
           }
@@ -202,24 +169,14 @@
         }
       }
     },
-<<<<<<< HEAD
-    "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Host\\CMS.Host.csproj": {
-=======
-    "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Host\\CMS.Host.csproj": {
->>>>>>> ed6f19eee615e957a7c6f25e5d61a438a5136aaa
+    "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Host\\CMS.Host.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Host\\CMS.Host.csproj",
+        "projectUniqueName": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Host\\CMS.Host.csproj",
         "projectName": "CMS.Host",
-<<<<<<< HEAD
-        "projectPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Host\\CMS.Host.csproj",
-        "packagesPath": "D:\\Users\\AMGawande\\.nuget\\packages\\",
-        "outputPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Host\\obj\\",
-=======
-        "projectPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Host\\CMS.Host.csproj",
+        "projectPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Host\\CMS.Host.csproj",
         "packagesPath": "D:\\Users\\NJPatil\\.nuget\\packages\\",
-        "outputPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Host\\obj\\",
->>>>>>> ed6f19eee615e957a7c6f25e5d61a438a5136aaa
+        "outputPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Host\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -240,27 +197,17 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-<<<<<<< HEAD
-              "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Data\\CMS.Data.csproj": {
-                "projectPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Data\\CMS.Data.csproj"
-=======
-              "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Data\\CMS.Data.csproj": {
-                "projectPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Data\\CMS.Data.csproj"
->>>>>>> ed6f19eee615e957a7c6f25e5d61a438a5136aaa
+              "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Data\\CMS.Data.csproj": {
+                "projectPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Data\\CMS.Data.csproj"
               },
-              "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj": {
-                "projectPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj"
+              "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj": {
+                "projectPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj"
               },
-              "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj": {
-                "projectPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj"
+              "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj": {
+                "projectPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj"
               },
-<<<<<<< HEAD
-              "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Web\\CMS.Web.csproj": {
-                "projectPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Web\\CMS.Web.csproj"
-=======
-              "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Web\\CMS.Web.csproj": {
-                "projectPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Web\\CMS.Web.csproj"
->>>>>>> ed6f19eee615e957a7c6f25e5d61a438a5136aaa
+              "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Web\\CMS.Web.csproj": {
+                "projectPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Web\\CMS.Web.csproj"
               }
             }
           }
@@ -302,24 +249,14 @@
         }
       }
     },
-<<<<<<< HEAD
-    "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj": {
-=======
-    "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj": {
->>>>>>> ed6f19eee615e957a7c6f25e5d61a438a5136aaa
+    "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj",
+        "projectUniqueName": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj",
         "projectName": "CMS.Messages",
-<<<<<<< HEAD
-        "projectPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj",
-        "packagesPath": "D:\\Users\\AMGawande\\.nuget\\packages\\",
-        "outputPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Messages\\obj\\",
-=======
-        "projectPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj",
+        "projectPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj",
         "packagesPath": "D:\\Users\\NJPatil\\.nuget\\packages\\",
-        "outputPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Messages\\obj\\",
->>>>>>> ed6f19eee615e957a7c6f25e5d61a438a5136aaa
+        "outputPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Messages\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -380,24 +317,14 @@
         }
       }
     },
-<<<<<<< HEAD
-    "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Test\\CMS.Test.csproj": {
-=======
-    "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Test\\CMS.Test.csproj": {
->>>>>>> ed6f19eee615e957a7c6f25e5d61a438a5136aaa
+    "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Test\\CMS.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Test\\CMS.Test.csproj",
+        "projectUniqueName": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Test\\CMS.Test.csproj",
         "projectName": "CMS.Test",
-<<<<<<< HEAD
-        "projectPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Test\\CMS.Test.csproj",
-        "packagesPath": "D:\\Users\\AMGawande\\.nuget\\packages\\",
-        "outputPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Test\\obj\\",
-=======
-        "projectPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Test\\CMS.Test.csproj",
+        "projectPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Test\\CMS.Test.csproj",
         "packagesPath": "D:\\Users\\NJPatil\\.nuget\\packages\\",
-        "outputPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Test\\obj\\",
->>>>>>> ed6f19eee615e957a7c6f25e5d61a438a5136aaa
+        "outputPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -418,30 +345,20 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-<<<<<<< HEAD
-              "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Data\\CMS.Data.csproj": {
-                "projectPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Data\\CMS.Data.csproj"
-=======
-              "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Data\\CMS.Data.csproj": {
-                "projectPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Data\\CMS.Data.csproj"
->>>>>>> ed6f19eee615e957a7c6f25e5d61a438a5136aaa
+              "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Data\\CMS.Data.csproj": {
+                "projectPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Data\\CMS.Data.csproj"
               },
-              "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj": {
-                "projectPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj"
+              "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj": {
+                "projectPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj"
               },
-              "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Host\\CMS.Host.csproj": {
-                "projectPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Host\\CMS.Host.csproj"
+              "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Host\\CMS.Host.csproj": {
+                "projectPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Host\\CMS.Host.csproj"
               },
-              "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj": {
-                "projectPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj"
+              "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj": {
+                "projectPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj"
               },
-<<<<<<< HEAD
-              "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Web\\CMS.Web.csproj": {
-                "projectPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Web\\CMS.Web.csproj"
-=======
-              "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Web\\CMS.Web.csproj": {
-                "projectPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Web\\CMS.Web.csproj"
->>>>>>> ed6f19eee615e957a7c6f25e5d61a438a5136aaa
+              "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Web\\CMS.Web.csproj": {
+                "projectPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Web\\CMS.Web.csproj"
               }
             }
           }
@@ -500,24 +417,14 @@
         }
       }
     },
-<<<<<<< HEAD
-    "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Web\\CMS.Web.csproj": {
-=======
-    "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Web\\CMS.Web.csproj": {
->>>>>>> ed6f19eee615e957a7c6f25e5d61a438a5136aaa
+    "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Web\\CMS.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Web\\CMS.Web.csproj",
+        "projectUniqueName": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Web\\CMS.Web.csproj",
         "projectName": "CMS.Web",
-<<<<<<< HEAD
-        "projectPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Web\\CMS.Web.csproj",
-        "packagesPath": "D:\\Users\\AMGawande\\.nuget\\packages\\",
-        "outputPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Web\\obj\\",
-=======
-        "projectPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Web\\CMS.Web.csproj",
+        "projectPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Web\\CMS.Web.csproj",
         "packagesPath": "D:\\Users\\NJPatil\\.nuget\\packages\\",
-        "outputPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Web\\obj\\",
->>>>>>> ed6f19eee615e957a7c6f25e5d61a438a5136aaa
+        "outputPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -538,19 +445,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-<<<<<<< HEAD
-              "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj": {
-                "projectPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj"
+              "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj": {
+                "projectPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj"
               },
-              "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj": {
-                "projectPath": "D:\\CMS repo\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj"
-=======
-              "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj": {
-                "projectPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Domain\\CMS.Domain.csproj"
-              },
-              "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj": {
-                "projectPath": "D:\\Project Codebase\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj"
->>>>>>> ed6f19eee615e957a7c6f25e5d61a438a5136aaa
+              "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj": {
+                "projectPath": "D:\\Assignment\\ContentManagementSystem\\Backend\\CMS.Messages\\CMS.Messages.csproj"
               }
             }
           }

@@ -60,11 +60,8 @@ namespace CMS.Web.Controllers
             }
             else
             {
-<<<<<<< HEAD
+
                 return BadRequest(createEmployeeHandler.AddEmployee(emp));
-=======
-                return Ok("Employee added successfully");
->>>>>>> ed6f19eee615e957a7c6f25e5d61a438a5136aaa
             }
         }
 
