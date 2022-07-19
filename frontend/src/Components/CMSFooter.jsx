@@ -9,7 +9,7 @@ const StyledFooter = styled(Segment)`
     background-color: purple;
     color: white;
     z-index: 100;
-    padding: 1re;
+    padding: 1rem;
     margin: 0;
     text-align: right;
   }

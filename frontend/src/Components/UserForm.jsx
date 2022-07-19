@@ -8,14 +8,21 @@ import {
   FormGroup,
 } from "semantic-ui-react";
 import { useState, useEffect } from "react";
-import axios from "axios";
 import { useNavigate, useParams } from "react-router-dom";
 import swal from "sweetalert";
+import { nameRegex,emailRegex,contactNumberRegex, contactInitialState } from "./constant";
+import { createLogic, validateData } from "./Logic";
 
+const StyleHeader=styled.h1`&&&&{
+  margin:6rem 2rem 2rem 2rem;
+  display: block;
+  text-align:center;
+  color:purple;
+}`
 const StyleSegment = styled.div`
   &&&&& {
-    margin: 5rem;
-    padding: 5rem 2rem;
+     margin:0rem 5rem;
+    padding:0rem 2rem;
     display: block;
     height: 35rem;
     overflow: auto;
@@ -23,92 +30,63 @@ const StyleSegment = styled.div`
 `;
 export const UserForm = () => {
   const { id } = useParams();
-  const [BtnState, setBtnState] = useState("SAVE");
-  const [isLoading, setIsLoading] = useState(false);
-  const emailregex = /([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+)/;
-  const cnregex = /^([+]\d{2}[ ])?\d{10}$/;
-  const nameregex = /^[a-zA-Z]{1,30}$/;
+  const [isLoading, setIsLoading] = useState(true);
   const navigate = useNavigate();
-  const [contact, setContact] = useState({
-    firstName: "",
-    lastName: "",
-    email: "",
-    contactNumber: "",
-    stat: "Active",
-  });
-  useEffect(() => {
-    if (id !== undefined) {
-      setIsLoading(true);
-      setBtnState("Update");
-      axios
-        .get(`https://localhost:44361/Employee/GetEmployee/${id}`)
-        .then((Response) => {
-          setContact(Response.data);
-          setIsLoading(false);
-        })
-        .catch((err) => {
-          swal(err.Response.data, "error");
-        });
-    }
-  }, [id]);
-
+  const [contact, setContact] = useState(contactInitialState);
   const { firstName, lastName, email, contactNumber, stat } = contact;
+
   const onInputChange = (e) => {
     setContact({ ...contact, [e.target.name]: e.target.value });
   }
 
-  const HandleSubmit = () => {
-    if (
-      emailregex.test(contact.email) &&
-      cnregex.test(contact.contactNumber) &&
-      nameregex.test(contact.firstName) &&
-      nameregex.test(contact.lastName)
-    ) {
+  const retriveData=async()=>{
+    var data=await createLogic("get",`GetEmployee/${id}`)
+    setContact(data);
+    setIsLoading(false);
+  }
+
+  useEffect(() => {
+    id !== undefined?
+      retriveData():setIsLoading(false);
+  },[]);
+  const HandleSubmit = async() => {
+    if (validateData(contact)) {
       if (id !== undefined) {
-        axios
-          .put("https://localhost:44361/Employee/Update", contact)
-          .then((Response) => {
+        let data=await createLogic("put","Update",contact)
             navigate("/");
-            swal("Done", Response.data, "success");
-          })
-          .catch((err) => {
-            swal(err.Response.data, "error");
-          });
+            swal("Done",data, "success");
       } else {
-        axios
-          .post("https://localhost:44361/Employee/AddEmployee", contact)
-          .then((Response) => {
-            navigate("/");
-            swal("Done", Response.data, "success");
-          })
-          .catch((err) => {
-            swal(err.response.data);
-          });
+        let data=await createLogic("post","AddEmployee",contact)
+          navigate("/")
+          swal("Done",data, "success");
       }
     } else {
       let msg = "";
       msg +=
-        contact.firstName.length < 1 || contact.firstName.length >= 30
+       firstName.length < 1 || firstName.length >= 30
           ? "- First Name length should be between 0 and 30\n"
-          : nameregex.test(contact.firstName)
+          : nameRegex.test(firstName)
           ? ""
           : "- First Name must be contain only alphabets\n";
       msg +=
-        contact.lastName.length < 1 || contact.lastName.length >= 30
+        lastName.length < 1 || lastName.length >= 30
           ? "- Last Name length should be between 0 and 30\n"
-          : nameregex.test(contact.lastName)
+          : nameRegex.test(lastName)
           ? ""
           : "- Last Name must be contain only alphabets\n";
-      msg += emailregex.test(contact.email) ? "" : "- Email\n";
-      msg += cnregex.test(contact.contactNumber) ? "" : "- Contact Number";
+      msg += emailRegex.test(email) ? "" : "- Email\n";
+      msg += contactNumberRegex.test(contactNumber) ? "" : "- Contact Number";
       swal("Invalid", msg, "warning");
     }
   };
+  if(isLoading){
+    return (  <Dimmer active={isLoading} inverted>
+      <Loader size="big" content="Please Wait" />
+    </Dimmer>)
+  }
   return (
     <>
-      <Dimmer active={isLoading} inverted>
-        <Loader size="big" content="Please Wait" />
-      </Dimmer>
+      <StyleHeader>{id===undefined?"Add Contact":"Update Contact"}</StyleHeader>
       <StyleSegment>
         <Form>
           <Form.Group widths="equal">
@@ -155,7 +133,7 @@ export const UserForm = () => {
                 <option value="Inactive">Inactive</option>
               </select>
             </Form.Field>
-            <Form.Field></Form.Field>
+            <Form.Field/>
           </Form.Group>
           <FormGroup>
             <Form.Field
@@ -164,18 +142,16 @@ export const UserForm = () => {
                 HandleSubmit();
               }}
               color="purple"
-            >
-              {BtnState}
-            </Form.Field>
+              content={id===undefined?"Save":"Update"}
+            />
             <Form.Field
               control={Button}
               onClick={() => {
                 navigate(-1);
               }}
               color="purple"
-            >
-              {"Cancel"}
-            </Form.Field>
+              content= {"Cancel"}
+            />
           </FormGroup>
         </Form>
       </StyleSegment>

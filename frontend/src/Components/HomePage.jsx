@@ -1,4 +1,3 @@
-import axios from "axios";
 import { useEffect, useState } from "react";
 import {
   Segment,
@@ -12,6 +11,8 @@ import {
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import swal from "sweetalert";
+import { headerRow, initialState } from "./constant";
+import { createLogic } from "./Logic";
 
 const StyleSegment = styled(Segment)`
   &&&&& {
@@ -32,8 +33,7 @@ const ButtonSegment = styled.div`
 const BottomSegment = styled.div`&&&&{
   padding 2rem;
   display :block;
-  text-align: center;
-  
+  text-align: center;  
 }`;
 
 function HomePage() {
@@ -43,65 +43,37 @@ function HomePage() {
   const [filteredContacts, setFilteredContacts] = useState([]);
   const [totalRecods, setTotalRecords] = useState(0);
   const [foundRecords, setFoundRecords] = useState(0);
+  const [sorts, setSorts] = useState(initialState);
+
   const HandleDelete = (id) => {
     swal({
       title: "Are you sure?",
       icon: "warning",
       buttons: true,
       dangerMode: true,
-    }).then((willDelete) => {
+    }).then(async (willDelete) => {
       if (willDelete) {
-        axios
-          .delete(`https://localhost:44361/Employee/Delete/${id}`)
-          .then((Response) => {
-            swal(Response.data);
-            retriveData();
-          })
-          .catch((err) => {
-            swal(err.Response.data, "error");
-          });
+        var data = await createLogic("delete", `Delete/${id}`);
+        swal("Done",data,"success");
+        retriveData();
       }
     });
   };
 
-  const retriveData = () => {
-    setIsLoading(true);
-    axios
-      .get("https://localhost:44361/Employee/EmployeeList")
-      .then((Response) => {
-        setTotalRecords(Response.data.length);
-        setContacts(Response.data);
-        setFilteredContacts(Response.data);
-        setIsLoading(false);
-      })
-      .catch((err) => {
-        swal(err.Response.data, "error");
-      });
+  const retriveData = async () => {
+    var data = await createLogic("get", "EmployeeList");
+    setTotalRecords(data.length);
+    setContacts(data);
+    setFilteredContacts(data);
+    setIsLoading(false);
   };
   useEffect(() => {
     retriveData();
   }, []);
 
-  const headerRow = [
-    { key: 1, value: "employeeId", text: "Id" },
-    { key: 2, value: "firstName", text: "First Name" },
-    { key: 3, value: "lastName", text: "Last Name" },
-    { key: 4, value: "email", text: "Email" },
-    { key: 5, value: "contactNumber", text: "ContactNumber" },
-    { key: 6, value: "stat", text: "Status" },
-    { key: 7, value: "action", text: "Action" },
-  ];
-  const initialState = {
-    firstName: "sort",
-    lastName: "sort",
-    email: "sort",
-    contactNumber: "sort",
-    stat: "sort",
-  };
-  const [sorts, setSorts] = useState(initialState);
-  const HandleSearch = async (e) => {
+  const HandleSearch = (e) => {
     setSearchTerm(e.target.value);
-    var vh = contacts.filter((c) => {
+    var foundRecords = contacts.filter((c) => {
       if (e.target.value === "") {
         return c;
       } else if (
@@ -113,17 +85,19 @@ function HomePage() {
         return c;
       }
     });
-    setFoundRecords(vh.length);
-    setFilteredContacts(vh);
+    setFoundRecords(foundRecords.length);
+    setFilteredContacts(foundRecords);
   };
   const HandleSort = (fieldName, sortOrder) => {
-    let s =
-      sortOrder === "sort"
-        ? "sort up"
-        : sortOrder === "sort up"
-        ? "sort down"
-        : "sort up";
-    setSorts({ ...initialState, [fieldName]: s });
+    setSorts({
+      ...initialState,
+      [fieldName]:
+        sortOrder === "sort"
+          ? "sort up"
+          : sortOrder === "sort up"
+          ? "sort down"
+          : "sort up",
+    });
     filteredContacts.sort((a, b) => {
       return sortOrder === "sort"
         ? a[fieldName].localeCompare(b[fieldName])
@@ -132,11 +106,16 @@ function HomePage() {
         : a[fieldName].localeCompare(b[fieldName]);
     });
   };
-  return (
-    <>
-      <Dimmer active={isLoading} inverted>
+
+  if (isLoading) {
+    return (
+      <Dimmer active inverted>
         <Loader size="big" content="Please Wait" />
       </Dimmer>
+    );
+  }
+  return (
+    <>
       <ButtonSegment>
         <Button
           as={Link}
@@ -165,7 +144,7 @@ function HomePage() {
                     onClick={() => {
                       HandleSort(header.value, sorts[header.value]);
                     }}
-                  ></Icon>
+                  />
                 </Table.HeaderCell>
               ))}
             </Table.Row>
@@ -173,12 +152,11 @@ function HomePage() {
           <Table.Body>
             {filteredContacts.map((contact) => (
               <Table.Row key={contact.employeeId}>
-                <Table.Cell>{contact.employeeId}</Table.Cell>
-                <Table.Cell>{contact.firstName}</Table.Cell>
-                <Table.Cell>{contact.lastName}</Table.Cell>
-                <Table.Cell>{contact.email}</Table.Cell>
-                <Table.Cell>{contact.contactNumber}</Table.Cell>
-                <Table.Cell>{contact.stat}</Table.Cell>
+                <Table.Cell content={contact.firstName} />
+                <Table.Cell content={contact.lastName} />
+                <Table.Cell content={contact.email} />
+                <Table.Cell content={contact.contactNumber} />
+                <Table.Cell content={contact.stat} />
                 <Table.Cell>
                   <Button
                     as={Link}
@@ -201,11 +179,14 @@ function HomePage() {
           </Table.Body>
         </Table>
       </StyleSegment>
-      <BottomSegment hidden={searchTerm === "" ? true : false}>
-        {searchTerm === ""
-          ? ""
-          : `Found :${foundRecords} Records Out Of ${totalRecods}`}
-      </BottomSegment>
+      {searchTerm === "" ? (
+        ""
+      ) : (
+        <BottomSegment>
+          {" "}
+          Found :{foundRecords} Records Out Of {totalRecods}
+        </BottomSegment>
+      )}
     </>
   );
 }
