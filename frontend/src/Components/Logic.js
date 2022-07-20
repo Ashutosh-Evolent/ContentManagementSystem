@@ -12,7 +12,20 @@ export const validateData = (contact) => {
   );
 };
 
-export const createLogic = async (requestType, url, data) => {
+export const createLogic=async(requestType,url,data)=>{
+
+//     async getContacts(url){
+//       return await axios.get(`${baseUrl}${url}`);
+//     }
+//     addContact=async(url,data)=>{
+//         return await  (await axios.post(`${baseUrl}${url}`, data)).data;
+//     }
+//    updateContact=async(url,data)=>{
+//         return await (await axios.put(`${baseUrl}${url}`, data)).data;
+//     }
+//    deleteContact=async(url)=>{
+//         return await (await axios.delete(`${baseUrl}${url}`)).data;
+//     }
   try {
     switch (requestType) {
       case "get":

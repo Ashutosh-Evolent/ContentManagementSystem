@@ -40,7 +40,9 @@ export const UserForm = () => {
   }
 
   const retriveData=async()=>{
+    // var data=await createLogic.getContacts(`GetEmployee/${id}`)
     var data=await createLogic("get",`GetEmployee/${id}`)
+
     setContact(data);
     setIsLoading(false);
   }
@@ -52,10 +54,12 @@ export const UserForm = () => {
   const HandleSubmit = async() => {
     if (validateData(contact)) {
       if (id !== undefined) {
+        // let data=await createLogic.updateContact("Update",contact)
         let data=await createLogic("put","Update",contact)
             navigate("/");
             swal("Done",data, "success");
       } else {
+        // let data=await createLogic.addContact("AddEmployee",contact)
         let data=await createLogic("post","AddEmployee",contact)
           navigate("/")
           swal("Done",data, "success");

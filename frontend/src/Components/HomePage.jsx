@@ -53,7 +53,9 @@ function HomePage() {
       dangerMode: true,
     }).then(async (willDelete) => {
       if (willDelete) {
+        // var data = await createLogic.deleteContact(`Delete/${id}`);
         var data = await createLogic("delete", `Delete/${id}`);
+
         swal("Done",data,"success");
         retriveData();
       }
@@ -61,7 +63,8 @@ function HomePage() {
   };
 
   const retriveData = async () => {
-    var data = await createLogic("get", "EmployeeList");
+    var data = await createLogic("get", "EmployeeList")
+    // var data =createLogic.getContacts("EmployeeList");
     setTotalRecords(data.length);
     setContacts(data);
     setFilteredContacts(data);
